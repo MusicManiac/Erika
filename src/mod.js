@@ -482,16 +482,21 @@ class Erika {
         }
         this.logger.info(`[${this.mod}] Quests loaded`);
         //Add all locales to SPT database
+        const allLocales = ['en', 'ch', 'cz', 'es', 'es-mx', 'fr', 'ge', 'hu', 'it', 'jp', 'pl', 'po', 'ru', 'sk', 'tu'];
         for (const bundle in qmDb.QuestBundles) {
             for (const trader in qmDb.QuestBundles[bundle]) {
-                //Skip adding the trader if they are disabled in config:
-                //if (!this.enabledTraders[trader]) continue;
                 for (const locale in qmDb.QuestBundles[bundle][trader].locales) {
                     //BulkFile import
                     const localeData = qmDb.QuestBundles[bundle][trader].locales[locale];
                     for (const localeDataEntry of Object.keys(localeData)) {
                         const subFileContent = localeData[localeDataEntry];
                         locales[locale][localeDataEntry] = subFileContent;
+                        if (locale == "en") {
+                            for (const ul in allLocales) {
+                                const ulName = allLocales[ul];
+                                locales[ulName][localeDataEntry] = subFileContent;
+                            }
+                        }
                     }
                 }
             }

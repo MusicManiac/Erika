@@ -32,7 +32,21 @@ export interface IAQMTrader {
 }
 
 export interface IQMLocales {
+    ch:         IQMLocalesTraders;
+    cz:         IQMLocalesTraders;
     en:         IQMLocalesTraders;
+    es:         IQMLocalesTraders;
+    "es-mx":    IQMLocalesTraders;
+    fr:         IQMLocalesTraders;
+    ge:         IQMLocalesTraders;
+    hu:         IQMLocalesTraders;
+    it:         IQMLocalesTraders;
+    jp:         IQMLocalesTraders;
+    pl:         IQMLocalesTraders;
+    po:         IQMLocalesTraders;
+    ru:         IQMLocalesTraders;
+    sk:         IQMLocalesTraders;
+    tu:         IQMLocalesTraders;
 }
 
 export interface IQMLocalesTraders {

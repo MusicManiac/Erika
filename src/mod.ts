@@ -1,4 +1,3 @@
-//Special thanks to Ereshkigal for some code blocks used to make this possible.
 import type { DependencyContainer } from "tsyringe"
 
 import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
@@ -12,7 +11,6 @@ import { ConfigServer } from "@spt-aki/servers/ConfigServer"
 import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes"
 import { ITraderConfig, UpdateTime } from "@spt-aki/models/spt/config/ITraderConfig"
 import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig"
-import { HashUtil } from "@spt-aki/utils/HashUtil"
 import { ImporterUtil } from "@spt-aki/utils/ImporterUtil";
 import { Traders } from "@spt-aki/models/enums/Traders";
 import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
@@ -459,34 +457,38 @@ class Erika implements IPreAkiLoadMod, IPostDBLoadMod
         this.logger.info(`[${this.mod}] Quests loaded`)
 
         //Add all locales to SPT database
-        for (const bundle in qmDb.QuestBundles)  {
+        const allLocales = ['en', 'ch','cz','es','es-mx','fr','ge','hu','it','jp','pl','po','ru','sk','tu']
+        for (const bundle in qmDb.QuestBundles) {
             for (const trader in qmDb.QuestBundles[bundle]) {
-                //Skip adding the trader if they are disabled in config:
-                //if (!this.enabledTraders[trader]) continue;
-
                 for (const locale in qmDb.QuestBundles[bundle][trader].locales) {
                     //BulkFile import
                     const localeData = qmDb.QuestBundles[bundle][trader].locales[locale]
+
                     for (const localeDataEntry of Object.keys(localeData)) {
                         const subFileContent = localeData[localeDataEntry]
                         locales[locale][localeDataEntry] = subFileContent
+
+                        if (locale == "en") {
+                            for (const ul in allLocales) {
+                                const ulName = allLocales[ul]
+                                locales[ulName][localeDataEntry] = subFileContent
+                            }
+                        }
                     }
 
                 }
             }
         }
 
+        
         for (const locale in qmDb.locales_traders) {
             for (const trader in qmDb.locales_traders[locale]) {
-
                 const traderLocale = qmDb.locales_traders[locale][trader]
-
-                for (const entry of Object.keys(traderLocale)) 
-                {
+                for (const entry of Object.keys(traderLocale)) {
                     locales[locale][entry] = traderLocale[entry]
                 }
             }
-        }
+        }   
 
         this.logger.info(`[${this.mod}] Locales loaded`)
 
