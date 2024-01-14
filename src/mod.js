@@ -305,10 +305,12 @@ class Erika {
             weaponPartsAndMods[category] = [];
         });
         weaponPartsAndMods.scopes30mm = itemDB["5bfebc5e0db834001a6694e5"]._props.Slots[0]._props.filters[0].Filter;
-        for (const category in weaponPartsAndMods) {
-            if (weaponPartsAndMods.hasOwnProperty(category)) {
-                const items = weaponPartsAndMods[category];
-                this.logger.info(`${category}: ${JSON.stringify(items)}`);
+        if (config.debug.show_All_Categories_And_Weapon_Parts_In_Them) {
+            for (const category in weaponPartsAndMods) {
+                if (weaponPartsAndMods.hasOwnProperty(category)) {
+                    const items = weaponPartsAndMods[category];
+                    this.logger.info(`${category}: ${JSON.stringify(items)}`);
+                }
             }
         }
         if (config.debug.show_All_Categories_And_Weapons_In_Them) {

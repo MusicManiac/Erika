@@ -116,7 +116,7 @@ class Erika implements IPreAkiLoadMod, IPostDBLoadMod
                 const itemId = itemDB[item]._id;
                 if (caliber == "Caliber30x29" || caliber == "Caliber40x46" || itemId == "5ae083b25acfc4001a5fc702") {
                     this.logger.info(`[${this.mod}] skipping item ${itemId} (its not important to this mod)`);
-                } else if (itemHelper.isOfBaseclass(itemId, BaseClasses.PISTOL)) {
+                } else if(itemHelper.isOfBaseclass(itemId, BaseClasses.PISTOL)) {
                     weaponArrays.pistols.push(itemId);
                     if (caliber == "Caliber762x25TT") {
                         weaponArrays.pistols762x25.push(itemId);
@@ -271,10 +271,12 @@ class Erika implements IPreAkiLoadMod, IPostDBLoadMod
 
         weaponPartsAndMods.scopes30mm = itemDB["5bfebc5e0db834001a6694e5"]._props.Slots[0]._props.filters[0].Filter;
 
-        for (const category in weaponPartsAndMods) {
-            if (weaponPartsAndMods.hasOwnProperty(category)) {
-                const items = weaponPartsAndMods[category];
-                this.logger.info(`${category}: ${JSON.stringify(items)}`);
+        if (config.debug.show_All_Categories_And_Weapon_Parts_In_Them) {
+            for (const category in weaponPartsAndMods) {
+                if (weaponPartsAndMods.hasOwnProperty(category)) {
+                    const items = weaponPartsAndMods[category];
+                    this.logger.info(`${category}: ${JSON.stringify(items)}`);
+                }
             }
         }
 
