@@ -6,8 +6,10 @@
 		"show_All_Categories_And_Weapon_Parts_In_Them" : false,
 		"show_Quest_Ids_Set_By_Code" : false,
 		"show_Weapons_And_Parts_Being_Replaced_In_Quests" : false,
+		"show_Equipment_Being_Replaced_In_Quests" : false,
 		"show_Weapons_Used_By_Each_Condition" : false,
 		"show_Weapon_Mods_Used_By_Each_Condition" : false,
+		"show_Equipment_Used_By_Each_Condition" : false,
 		"show_Items_Multipliers_Being_Applied" : false,
 		"show_Kills_Multipliers_Being_Applied" : false,
 		"show_Levels_Requirements_Being_Applied" : false
@@ -59,7 +61,9 @@
 		"QM_12x70_AP" : 0.3,
 		"QM_12x70_Flechette" : 0.3,
 
-		"QM_30mm_scopes" : 1
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1
 	},
 
 	"questsKillsCounterMultipliers" : {
@@ -109,7 +113,9 @@
 		"QM_12x70_AP" : 1,
 		"QM_12x70_Flechette" : 1.2,
 
-		"QM_30mm_scopes" : 1
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1
 	},
 
 	"questsLevelRequirements" : {
@@ -158,6 +164,8 @@
 		"QM_12x70_AP" : 30,
 		"QM_12x70_Flechette" : 35,
 
-		"QM_30mm_scopes" : 20
+		"QM_30mm_scopes" : 20,
+
+		"QM_GPNVG_18_NVGs" : 30
 	}
 }

@@ -189,6 +189,11 @@
 			"_id": "Erika_Temporal_Id QM_30mm_scopes Trade_5",
 			"_tpl": "617151c1d92c473c770214ab",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 2 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0",
+			"_tpl": "5c0558060db834001b735271",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 2 }
 		}
 
 	],
@@ -344,6 +349,10 @@
 		"Erika_Temporal_Id QM_30mm_scopes Trade_5": [[{
 			"count": 50000, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0": [[{
+			"count": 750, 
+			"_tpl": "5696686a4bdc2da3298b456a"
 		}]]
 	},
   	"loyal_level_items": {
@@ -398,6 +407,8 @@
 		"Erika_Temporal_Id QM_30mm_scopes Trade_2" : 1,
 		"Erika_Temporal_Id QM_30mm_scopes Trade_3" : 1,
 		"Erika_Temporal_Id QM_30mm_scopes Trade_4" : 1,
-		"Erika_Temporal_Id QM_30mm_scopes Trade_5" : 1
+		"Erika_Temporal_Id QM_30mm_scopes Trade_5" : 1,
+
+		"Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0" : 1
  	 }
 }

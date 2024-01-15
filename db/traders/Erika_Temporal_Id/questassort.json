@@ -52,7 +52,9 @@
 		"Erika_Temporal_Id QM_30mm_scopes Trade_2" : "QM_30mm_scopes",
 		"Erika_Temporal_Id QM_30mm_scopes Trade_3" : "QM_30mm_scopes",
 		"Erika_Temporal_Id QM_30mm_scopes Trade_4" : "QM_30mm_scopes",
-		"Erika_Temporal_Id QM_30mm_scopes Trade_5" : "QM_30mm_scopes"
+		"Erika_Temporal_Id QM_30mm_scopes Trade_5" : "QM_30mm_scopes",
+
+		"Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0" : "QM_GPNVG_18_NVGs"
 	},
 	"fail": {}
 }

@@ -1,0 +1,50 @@
+Ammo Quests:
+bullets: 600
+20 kills on each map
+5 raiders
+50 scavs
+5 rogues
+20 PMCs
+10 any bosses
+
+shotguns only:			mostly SMG:				mostly Rifles:			has DMRs/Snipers		has only DMR/snipers
+30 kills <=10m			20 kills <=10m			20 kills <=10m			20 kills <=10m			10 kills <=10m
+40 kills 10-40m			40 kills 10-40m			60 kills 10-40m			60 kills 10-40m			20 kills 10-40m
+10 kills 40-80m			20 kills 40-80m			50 kills 40-80m			70 kills 40-80m			60 kills 40-80m
+1 kills >=80m			5 kills >=80m			10 kills >=80m			30 kills >=80m			60 kills >=80m
+
+20 SMG kills
+10 pistol kills
+5 revolver kills
+60 assault rifles kills
+20 assault carbines kills
+20 LMGs kills
+10/40 shotgun kills
+30 DMR kills
+20 Sniper Kills
+
+Attachments / Equipment quests:
+turn in 10
+if category of attachments: turn in 10 FIR / if singular: turn in 2 FIR
+20 kills on each map
+5 raiders
+50 scavs
+5 rogues
+20 PMCs
+10 any bosses
+
+close range:			mid range:				long range:				Equipment / Range not applicable:
+30 kills <=10m			20 kills <=10m			10 kills <=10m			20 kills on all distances
+40 kills 10-40m			40 kills 10-40m			40 kills 10-40m
+20 kills 40-80m			40 kills 40-80m			60 kills 40-80m
+10 kills >=80m			20 kills >=80m			30 kills >=80m
+
+10 SMG kills
+10 pistol kills
+10 revolver kills
+10 assault rifles kills
+10 assault carbines kills
+10 LMGs kills
+10 shotgun kills
+10 DMR kills
+10 Sniper Kills

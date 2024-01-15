@@ -28,7 +28,7 @@ const Traders_1 = require("C:/snapshot/project/obj/models/enums/Traders");
 const BaseClasses_1 = require("C:/snapshot/project/obj/models/enums/BaseClasses");
 //trader configs
 const ErikaBaseJson = __importStar(require("../db/traders/Erika_Temporal_Id/base.json"));
-const config = __importStar(require("../src/config.json"));
+const config = __importStar(require("../config.json"));
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
 "use strict";
 // DB au lieu de AKI
@@ -63,6 +63,7 @@ class Erika {
         const itemDB = database.templates.items;
         const qmDb = databaseImporter.loadRecursive(`${postAkiModLoader.getModPath(this.mod)}db/`);
         const locales = database.locales.global;
+        // Weapons
         const weaponCategories = [
             "pistols762x25", "SMGs762x25",
             "pistols9x18", "SMGs9x18",
@@ -92,219 +93,237 @@ class Erika {
         weaponCategories.forEach(category => {
             weaponArrays[category] = [];
         });
-        for (let item in itemDB) {
-            // if (itemDB[item]._type != "Node" && itemHelper.isOfBaseclass(itemDB[item]._parent, BaseClasses.WEAPON)) {
-            if (itemDB[item]._type != "Node" && itemDB[item]._props.hasOwnProperty("ammoCaliber")) {
-                const caliber = itemDB[item]._props.ammoCaliber;
-                const itemId = itemDB[item]._id;
-                if (caliber == "Caliber30x29" || caliber == "Caliber40x46" || itemId == "5ae083b25acfc4001a5fc702") {
-                    this.logger.info(`[${this.mod}] skipping item ${itemId} (its not important to this mod)`);
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.PISTOL)) {
-                    weaponArrays.pistols.push(itemId);
-                    if (caliber == "Caliber762x25TT") {
-                        weaponArrays.pistols762x25.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x18PM") {
-                        weaponArrays.pistols9x18.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x19PARA") {
-                        weaponArrays.pistols9x19.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x21") {
-                        weaponArrays.pistols9x21.push(itemId);
-                    }
-                    else if (caliber == "Caliber1143x23ACP") {
-                        weaponArrays.pistols45.push(itemId);
-                    }
-                    else if (caliber == "Caliber57x28") {
-                        weaponArrays.pistols57x28.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] pistol ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SMG)) {
-                    weaponArrays.SMGs.push(itemId);
-                    if (caliber == "Caliber762x25TT") {
-                        weaponArrays.SMGs762x25.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x18PM" || caliber == "Caliber9x18PMM") {
-                        weaponArrays.SMGs9x18.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x19PARA") {
-                        weaponArrays.SMGs9x19.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x21") {
-                        weaponArrays.SMGs9x21.push(itemId);
-                    }
-                    else if (caliber == "Caliber1143x23ACP") {
-                        weaponArrays.SMGs45.push(itemId);
-                    }
-                    else if (caliber == "Caliber57x28") {
-                        weaponArrays.SMGs57x28.push(itemId);
-                    }
-                    else if (caliber == "Caliber46x30") {
-                        weaponArrays.SMGs46x30.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] SMG ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.REVOLVER)) {
-                    weaponArrays.revolvers.push(itemId);
-                    if (caliber == "Caliber9x19PARA") {
-                        weaponArrays.revolvers9x19.push(itemId);
-                    }
-                    else if (caliber == "Caliber127x55") {
-                        weaponArrays.revolvers127x55.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x33R") {
-                        weaponArrays.revolvers357.push(itemId);
-                    }
-                    else if (caliber == "Caliber12g") {
-                        weaponArrays.revolvers12x70.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] revolver ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.ASSAULT_CARBINE)) {
-                    weaponArrays.assaultCarbines.push(itemId);
-                    if (caliber == "Caliber545x39") {
-                        weaponArrays.assaultCarbines545x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber556x45NATO") {
-                        weaponArrays.assaultCarbines556x45.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x39") {
-                        weaponArrays.assaultCarbines762x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x51") {
-                        weaponArrays.assaultCarbines762x51.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x54R") {
-                        weaponArrays.assaultCarbines762x54.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x39") {
-                        weaponArrays.assaultCarbines9x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber366TKM") {
-                        weaponArrays.assaultCarbines366.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] assault carbine ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.ASSAULT_RIFLE)) {
-                    weaponArrays.assaultRifles.push(itemId);
-                    if (caliber == "Caliber545x39") {
-                        weaponArrays.assaultRifles545x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber556x45NATO") {
-                        weaponArrays.assaultRifles556x45.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x35") {
-                        weaponArrays.assaultRifles300.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x39") {
-                        weaponArrays.assaultRifles762x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x51") {
-                        weaponArrays.assaultRifles762x51.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x39") {
-                        weaponArrays.assaultRifles9x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber127x55") {
-                        weaponArrays.assaultRifles127x55.push(itemId);
-                    }
-                    else if (caliber == "Caliber366TKM") {
-                        weaponArrays.assaultRifles366.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] assault rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.MACHINE_GUN)) {
-                    weaponArrays.LMGs.push(itemId);
-                    if (caliber == "Caliber545x39") {
-                        weaponArrays.LMGs545x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x39") {
-                        weaponArrays.LMGs762x39.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x54R") {
-                        weaponArrays.LMGs762x54.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] LMG ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.MARKSMAN_RIFLE)) {
-                    weaponArrays.DMRs.push(itemId);
-                    if (caliber == "Caliber86x70") {
-                        weaponArrays.DMRs338.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x51") {
-                        weaponArrays.DMRs762x51.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x54R") {
-                        weaponArrays.DMRs762x54.push(itemId);
-                    }
-                    else if (caliber == "Caliber9x39") {
-                        weaponArrays.DMRs9x39.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] DMR ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SNIPER_RIFLE)) {
-                    weaponArrays.sniperRifles.push(itemId);
-                    if (caliber == "Caliber86x70") {
-                        weaponArrays.sniperRifles338.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x51") {
-                        weaponArrays.sniperRifles762x51.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x54R") {
-                        weaponArrays.sniperRifles762x54.push(itemId);
-                    }
-                    else if (caliber == "Caliber366TKM") {
-                        weaponArrays.sniperRifles366.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] sniper rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-                else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SHOTGUN)) {
-                    weaponArrays.shotguns.push(itemId);
-                    if (caliber == "Caliber12g") {
-                        weaponArrays.shotguns12x70.push(itemId);
-                    }
-                    else if (caliber == "Caliber20g") {
-                        weaponArrays.shotguns20x70.push(itemId);
-                    }
-                    else if (caliber == "Caliber23x75") {
-                        weaponArrays.shotguns23x73.push(itemId);
-                    }
-                    else if (caliber == "Caliber762x54R") {
-                        weaponArrays.shotguns762x54.push(itemId);
-                    }
-                    else {
-                        this.logger.error(`[${this.mod}] sniper rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
-                    }
-                }
-            }
-        }
+        // Weapon parts and mods
         const weaponPartsAndModsCategories = [
-            "scopes30mm"
+            "scopes30mm",
+            "flashlights", "tacticalComboDevices"
         ];
         let weaponPartsAndMods = {};
         weaponPartsAndModsCategories.forEach(category => {
             weaponPartsAndMods[category] = [];
         });
         weaponPartsAndMods.scopes30mm = itemDB["5bfebc5e0db834001a6694e5"]._props.Slots[0]._props.filters[0].Filter;
+        // Equipment categories
+        const equipmentsCategories = [
+            "noneYet"
+        ];
+        let equipmentLists = {};
+        equipmentsCategories.forEach(category => {
+            equipmentLists[category] = [];
+        });
+        for (let item in itemDB) {
+            // if (itemDB[item]._type != "Node" && itemHelper.isOfBaseclass(itemDB[item]._parent, BaseClasses.WEAPON)) {
+            if (itemDB[item]._type != "Node") {
+                const itemId = itemDB[item]._id;
+                if (itemDB[item]._props.hasOwnProperty("ammoCaliber")) {
+                    const caliber = itemDB[item]._props.ammoCaliber;
+                    if (caliber == "Caliber30x29" || caliber == "Caliber40x46" || itemId == "5ae083b25acfc4001a5fc702") {
+                        this.logger.info(`[${this.mod}] skipping item ${itemId} (its not important to this mod)`);
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.PISTOL)) {
+                        weaponArrays.pistols.push(itemId);
+                        if (caliber == "Caliber762x25TT") {
+                            weaponArrays.pistols762x25.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x18PM") {
+                            weaponArrays.pistols9x18.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x19PARA") {
+                            weaponArrays.pistols9x19.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x21") {
+                            weaponArrays.pistols9x21.push(itemId);
+                        }
+                        else if (caliber == "Caliber1143x23ACP") {
+                            weaponArrays.pistols45.push(itemId);
+                        }
+                        else if (caliber == "Caliber57x28") {
+                            weaponArrays.pistols57x28.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] pistol ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SMG)) {
+                        weaponArrays.SMGs.push(itemId);
+                        if (caliber == "Caliber762x25TT") {
+                            weaponArrays.SMGs762x25.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x18PM" || caliber == "Caliber9x18PMM") {
+                            weaponArrays.SMGs9x18.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x19PARA") {
+                            weaponArrays.SMGs9x19.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x21") {
+                            weaponArrays.SMGs9x21.push(itemId);
+                        }
+                        else if (caliber == "Caliber1143x23ACP") {
+                            weaponArrays.SMGs45.push(itemId);
+                        }
+                        else if (caliber == "Caliber57x28") {
+                            weaponArrays.SMGs57x28.push(itemId);
+                        }
+                        else if (caliber == "Caliber46x30") {
+                            weaponArrays.SMGs46x30.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] SMG ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.REVOLVER)) {
+                        weaponArrays.revolvers.push(itemId);
+                        if (caliber == "Caliber9x19PARA") {
+                            weaponArrays.revolvers9x19.push(itemId);
+                        }
+                        else if (caliber == "Caliber127x55") {
+                            weaponArrays.revolvers127x55.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x33R") {
+                            weaponArrays.revolvers357.push(itemId);
+                        }
+                        else if (caliber == "Caliber12g") {
+                            weaponArrays.revolvers12x70.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] revolver ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.ASSAULT_CARBINE)) {
+                        weaponArrays.assaultCarbines.push(itemId);
+                        if (caliber == "Caliber545x39") {
+                            weaponArrays.assaultCarbines545x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber556x45NATO") {
+                            weaponArrays.assaultCarbines556x45.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x39") {
+                            weaponArrays.assaultCarbines762x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x51") {
+                            weaponArrays.assaultCarbines762x51.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x54R") {
+                            weaponArrays.assaultCarbines762x54.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x39") {
+                            weaponArrays.assaultCarbines9x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber366TKM") {
+                            weaponArrays.assaultCarbines366.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] assault carbine ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.ASSAULT_RIFLE)) {
+                        weaponArrays.assaultRifles.push(itemId);
+                        if (caliber == "Caliber545x39") {
+                            weaponArrays.assaultRifles545x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber556x45NATO") {
+                            weaponArrays.assaultRifles556x45.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x35") {
+                            weaponArrays.assaultRifles300.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x39") {
+                            weaponArrays.assaultRifles762x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x51") {
+                            weaponArrays.assaultRifles762x51.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x39") {
+                            weaponArrays.assaultRifles9x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber127x55") {
+                            weaponArrays.assaultRifles127x55.push(itemId);
+                        }
+                        else if (caliber == "Caliber366TKM") {
+                            weaponArrays.assaultRifles366.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] assault rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.MACHINE_GUN)) {
+                        weaponArrays.LMGs.push(itemId);
+                        if (caliber == "Caliber545x39") {
+                            weaponArrays.LMGs545x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x39") {
+                            weaponArrays.LMGs762x39.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x54R") {
+                            weaponArrays.LMGs762x54.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] LMG ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.MARKSMAN_RIFLE)) {
+                        weaponArrays.DMRs.push(itemId);
+                        if (caliber == "Caliber86x70") {
+                            weaponArrays.DMRs338.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x51") {
+                            weaponArrays.DMRs762x51.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x54R") {
+                            weaponArrays.DMRs762x54.push(itemId);
+                        }
+                        else if (caliber == "Caliber9x39") {
+                            weaponArrays.DMRs9x39.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] DMR ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SNIPER_RIFLE)) {
+                        weaponArrays.sniperRifles.push(itemId);
+                        if (caliber == "Caliber86x70") {
+                            weaponArrays.sniperRifles338.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x51") {
+                            weaponArrays.sniperRifles762x51.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x54R") {
+                            weaponArrays.sniperRifles762x54.push(itemId);
+                        }
+                        else if (caliber == "Caliber366TKM") {
+                            weaponArrays.sniperRifles366.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] sniper rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                    else if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.SHOTGUN)) {
+                        weaponArrays.shotguns.push(itemId);
+                        if (caliber == "Caliber12g") {
+                            weaponArrays.shotguns12x70.push(itemId);
+                        }
+                        else if (caliber == "Caliber20g") {
+                            weaponArrays.shotguns20x70.push(itemId);
+                        }
+                        else if (caliber == "Caliber23x75") {
+                            weaponArrays.shotguns23x73.push(itemId);
+                        }
+                        else if (caliber == "Caliber762x54R") {
+                            weaponArrays.shotguns762x54.push(itemId);
+                        }
+                        else {
+                            this.logger.error(`[${this.mod}] sniper rifle ${itemId} doesn't have a matching caliber in weaponCategories`);
+                        }
+                    }
+                }
+                if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.FLASHLIGHT)) {
+                    weaponPartsAndMods.flashlights.push(itemId);
+                }
+                if (itemHelper.isOfBaseclass(itemId, BaseClasses_1.BaseClasses.TACTICAL_COMBO)) {
+                    weaponPartsAndMods.tacticalComboDevices.push(itemId);
+                }
+            }
+        }
         if (config.debug.show_All_Categories_And_Weapon_Parts_In_Them) {
             for (const category in weaponPartsAndMods) {
                 if (weaponPartsAndMods.hasOwnProperty(category)) {
@@ -381,7 +400,7 @@ class Erika {
                                             }
                                         }, []);
                                         if (config.debug.show_Weapons_Used_By_Each_Condition) {
-                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` weapons: ${JSON.stringify(subConditionData._props.weapon)}`);
+                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` required weapons: ${JSON.stringify(subConditionData._props.weapon)}`);
                                         }
                                     }
                                     if (Array.isArray(subConditionData._props.weaponModsInclusive)) {
@@ -403,7 +422,51 @@ class Erika {
                                             }
                                         }, []);
                                         if (config.debug.show_Weapon_Mods_Used_By_Each_Condition) {
-                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` weapon mods: ${JSON.stringify(subConditionData._props.weaponModsInclusive)}`);
+                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` included weapon mods: ${JSON.stringify(subConditionData._props.weaponModsInclusive)}`);
+                                        }
+                                    }
+                                    if (Array.isArray(subConditionData._props.weaponModsExclusive)) {
+                                        subConditionData._props.weaponModsExclusive = subConditionData._props.weaponModsExclusive.reduce((acc, weaponMods) => {
+                                            // Check if the weaponMods is a key in weaponModsExclusive
+                                            if (weaponPartsAndMods.hasOwnProperty(weaponMods)) {
+                                                const modsArray = weaponPartsAndMods[weaponMods];
+                                                // Concatenate each ID into a separate array
+                                                const separatedArrays = modsArray.map(modId => [modId]);
+                                                if (config.debug.show_Weapons_And_Parts_Being_Replaced_In_Quests) {
+                                                    this.logger.info(`[${this.mod}] replacing \`${weaponMods}\` in quest \`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` counter condition #${counterElimination} with array`);
+                                                }
+                                                // Concatenate the arrays into the accumulator
+                                                return acc.concat(separatedArrays);
+                                            }
+                                            else {
+                                                // If not found, concatenate the original weaponId
+                                                return acc.concat([weaponMods]);
+                                            }
+                                        }, []);
+                                        if (config.debug.show_Weapon_Mods_Used_By_Each_Condition) {
+                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` excluded weapon mods: ${JSON.stringify(subConditionData._props.weaponModsInclusive)}`);
+                                        }
+                                    }
+                                    if (Array.isArray(subConditionData._props.equipmentInclusive)) {
+                                        subConditionData._props.equipmentInclusive = subConditionData._props.equipmentInclusive.reduce((acc, equipment) => {
+                                            // Check if the weaponMods is a key in weaponModsInclusive
+                                            if (equipmentLists.hasOwnProperty(equipment)) {
+                                                const equipmentArray = equipmentLists[equipment];
+                                                // Concatenate each ID into a separate array
+                                                const separatedArrays = equipmentArray.map(equipmentId => [equipmentId]);
+                                                if (config.debug.show_Equipment_Being_Replaced_In_Quests) {
+                                                    this.logger.info(`[${this.mod}] replacing \`${equipment}\` in quest \`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` counter condition #${counterElimination} with array`);
+                                                }
+                                                // Concatenate the arrays into the accumulator
+                                                return acc.concat(separatedArrays);
+                                            }
+                                            else {
+                                                // If not found, concatenate the original weaponId
+                                                return acc.concat([equipment]);
+                                            }
+                                        }, []);
+                                        if (config.debug.show_Equipment_Used_By_Each_Condition) {
+                                            this.logger.info(`\`${questContent._id}\` subCondition \`${nextConditionData._props.id}\` included equipment list: ${JSON.stringify(subConditionData._props.equipmentInclusive)}`);
                                         }
                                     }
                                 }
