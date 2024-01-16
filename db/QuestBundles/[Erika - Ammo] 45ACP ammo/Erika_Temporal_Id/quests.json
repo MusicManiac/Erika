@@ -759,7 +759,7 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x19"],
+                    "weapon": ["SMGs45"],
                     "value": "1"
                   }
                 }
@@ -789,7 +789,7 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["pistols9x19"],
+                    "weapon": ["pistols45"],
                     "value": "1"
                   }
                 }
