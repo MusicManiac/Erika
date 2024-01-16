@@ -527,7 +527,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["shotguns12x70", "revolvers12x70"],
@@ -545,6 +546,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["shotguns12x70", "revolvers12x70"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_AP Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1359,7 +1394,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["shotguns12x70", "revolvers12x70"],
@@ -1377,6 +1413,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["shotguns12x70", "revolvers12x70"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false

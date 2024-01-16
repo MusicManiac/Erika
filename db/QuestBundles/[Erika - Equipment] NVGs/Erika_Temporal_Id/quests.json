@@ -613,7 +613,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "equipmentInclusive": ["5c0558060db834001b735271"],
@@ -636,6 +637,41 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "equipmentInclusive": ["5c0558060db834001b735271"],
+                    "weaponModsExclusive": ["flashlights", "tacticalComboDevices"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false

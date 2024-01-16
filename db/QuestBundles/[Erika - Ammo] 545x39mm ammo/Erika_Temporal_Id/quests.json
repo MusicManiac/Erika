@@ -527,7 +527,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
@@ -545,6 +546,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_545x39_BT Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1389,7 +1424,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
@@ -1407,6 +1443,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_545x39_7N40 Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -2251,7 +2321,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
@@ -2269,6 +2340,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_545x39_BP Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -3113,7 +3218,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
@@ -3131,6 +3237,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_545x39_BS Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -3975,7 +4115,8 @@
                       "bossTagilla",
                       "bossSanitar",
                       "bossKojaniy",
-                      "bossKilla"
+                      "bossKilla",
+                      "sectantPriest"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
@@ -3993,6 +4134,40 @@
             "parentId": "",
             "type": "Elimination",
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_545x39_PPBS Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false

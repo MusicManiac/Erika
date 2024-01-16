@@ -6,6 +6,7 @@ bullets: 600
 5 rogues
 20 PMCs
 10 any bosses
+5 cultists
 
 shotguns only:			mostly SMG:				mostly Rifles:			has DMRs/Snipers		has only DMR/snipers
 30 kills <=10m			20 kills <=10m			20 kills <=10m			20 kills <=10m			10 kills <=10m

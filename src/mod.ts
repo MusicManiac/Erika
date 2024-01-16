@@ -443,7 +443,11 @@ class Erika implements IPreAkiLoadMod, IPostDBLoadMod
                                 }
                                 counterElimination++;
                             }
-                            if (config.questsKillsCounterMultipliers.hasOwnProperty(questContent._id)) {
+                            if (config.questsCultistsKillsCounterMultipliers.hasOwnProperty(questContent._id)) { 
+                                const multiplier = config.questsCultistsKillsCounterMultipliers[questContent._id];
+                                nextConditionData._props.value *= multiplier;
+                                nextConditionData._props.value = Math.ceil(nextConditionData._props.value);
+                            } else if (config.questsKillsCounterMultipliers.hasOwnProperty(questContent._id)) {
                                 const multiplier = config.questsKillsCounterMultipliers[questContent._id];
                                 nextConditionData._props.value *= multiplier;
                                 nextConditionData._props.value = Math.ceil(nextConditionData._props.value);

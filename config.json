@@ -118,6 +118,58 @@
 		"QM_GPNVG_18_NVGs" : 1
 	},
 
+	"questsCultistsKillsCounterMultipliers" : {
+		"QM_46x30_AP" : 1,
+
+		"QM_9x19_AP" : 0.5,
+		"QM_9x19_PBP" : 1.5,
+
+		"QM_9x21_BT" : 1,
+
+		"QM_45_AP" : 1,
+
+		"QM_545x39_BT" : 0.2,
+		"QM_545x39_7N40" : 3,
+		"QM_545x39_BP" : 0.5,
+		"QM_545x39_BS" : 1.5,
+		"QM_545x39_PPBS" : 2,
+
+		"QM_556x45_M856A1" : 0.2,
+		"QM_556x45_M855A1" : 1,
+		"QM_556x45_M995" : 1.8,
+		"QM_556x45_SSA" : 2.5,
+
+		"QM_300Blackout_M62" : 1,
+		"QM_300Blackout_CBJ" : 1.5,
+		"QM_300Blackout_AP" : 2,
+
+		"QM_762x39_BP" : 1,
+		"QM_762x39_MAI" : 3,
+
+		"QM_762x51_M62" : 1,
+		"QM_762x51_M61" : 2,
+		"QM_762x51_M993" : 3,
+
+		"QM_762x54_BT" : 1,
+		"QM_762x54_SNB" : 2,
+		"QM_762x54_BS" : 3,
+
+		"QM_338_AP" : 1,
+
+		"QM_9x39_SP6" : 1,
+		"QM_9x39_PAB9" : 2,
+		"QM_9x39_BP" : 3,
+
+		"QM_127x55_AP" : 1,
+
+		"QM_12x70_AP" : 0.5,
+		"QM_12x70_Flechette" : 1,
+
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1
+	},
+
 	"questsLevelRequirements" : {
 		"QM_46x30_AP" : 35,
 
