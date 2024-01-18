@@ -1,0 +1,215 @@
+{
+	"questsItemCounterMultipliers" : {
+		"QM_46x30_AP" : 1,
+
+		"QM_9x19_AP" : 2,
+		"QM_9x19_PBP" : 1,
+
+		"QM_9x21_BT" : 1,
+
+		"QM_45_AP" : 1,
+
+		"QM_545x39_BT" : 2,
+		"QM_545x39_7N40" : 1,
+		"QM_545x39_BP" : 1,
+		"QM_545x39_PPBS" : 1,
+
+		"QM_556x45_M856A1" : 1.5,
+		"QM_556x45_M855A1" : 1,
+		"QM_556x45_M995" : 1,
+		"QM_556x45_SSA" : 1,
+
+		"QM_300Blackout_M62" : 1,
+		"QM_300Blackout_CBJ" : 1,
+		"QM_300Blackout_AP" : 1,
+
+		"QM_762x39_BP" : 1.5,
+		"QM_762x39_MAI" : 1,
+
+		"QM_762x51_M62" : 1,
+		"QM_762x51_M61" : 1,
+		"QM_762x51_M993" : 1,
+
+		"QM_762x54_BT" : 1,
+		"QM_762x54_SNB" : 1,
+		"QM_762x54_BS" : 1,
+
+		"QM_338_AP" : 0.1,
+
+		"QM_9x39_SP6" : 1,
+		"QM_9x39_PAB9" : 1,
+		"QM_9x39_BP" : 1,
+
+		"QM_127x55_AP" : 0.5,
+
+		"QM_12x70_AP" : 0.3,
+		"QM_12x70_Flechette" : 0.3,
+
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1,
+
+		"QM_HighCapacity_mags": 1
+	},
+
+	"questsKillsCounterMultipliers" : {
+		"QM_46x30_AP" : 1,
+
+		"QM_9x19_AP" : 1,
+		"QM_9x19_PBP" : 2,
+
+		"QM_9x21_BT" : 1.5,
+
+		"QM_45_AP" : 1.5,
+
+		"QM_545x39_BT" : 1,
+		"QM_545x39_7N40" : 3,
+		"QM_545x39_BP" : 1,
+		"QM_545x39_BS" : 2.5,
+		"QM_545x39_PPBS" : 3,
+
+		"QM_556x45_M856A1" : 1,
+		"QM_556x45_M855A1" : 1.2,
+		"QM_556x45_M995" : 2.4,
+		"QM_556x45_SSA" : 3,
+
+		"QM_300Blackout_M62" : 1,
+		"QM_300Blackout_CBJ" : 1.5,
+		"QM_300Blackout_AP" : 2,
+
+		"QM_762x39_BP" : 1,
+		"QM_762x39_MAI" : 3,
+
+		"QM_762x51_M62" : 1,
+		"QM_762x51_M61" : 2,
+		"QM_762x51_M993" : 3,
+
+		"QM_762x54_BT" : 1,
+		"QM_762x54_SNB" : 2,
+		"QM_762x54_BS" : 3,
+
+		"QM_338_AP" : 2,
+
+		"QM_9x39_SP6" : 1,
+		"QM_9x39_PAB9" : 2,
+		"QM_9x39_BP" : 3,
+
+		"QM_127x55_AP" : 1,
+
+		"QM_12x70_AP" : 1,
+		"QM_12x70_Flechette" : 1.2,
+
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1,
+
+		"QM_HighCapacity_mags": 1
+	},
+
+	"questsCultistsKillsCounterMultipliers" : {
+		"QM_46x30_AP" : 1,
+
+		"QM_9x19_AP" : 0.5,
+		"QM_9x19_PBP" : 1.5,
+
+		"QM_9x21_BT" : 1,
+
+		"QM_45_AP" : 1,
+
+		"QM_545x39_BT" : 0.2,
+		"QM_545x39_7N40" : 3,
+		"QM_545x39_BP" : 0.5,
+		"QM_545x39_BS" : 1.5,
+		"QM_545x39_PPBS" : 2,
+
+		"QM_556x45_M856A1" : 0.2,
+		"QM_556x45_M855A1" : 1,
+		"QM_556x45_M995" : 1.8,
+		"QM_556x45_SSA" : 2.5,
+
+		"QM_300Blackout_M62" : 1,
+		"QM_300Blackout_CBJ" : 1.5,
+		"QM_300Blackout_AP" : 2,
+
+		"QM_762x39_BP" : 1,
+		"QM_762x39_MAI" : 3,
+
+		"QM_762x51_M62" : 1,
+		"QM_762x51_M61" : 2,
+		"QM_762x51_M993" : 3,
+
+		"QM_762x54_BT" : 1,
+		"QM_762x54_SNB" : 2,
+		"QM_762x54_BS" : 3,
+
+		"QM_338_AP" : 1,
+
+		"QM_9x39_SP6" : 1,
+		"QM_9x39_PAB9" : 2,
+		"QM_9x39_BP" : 3,
+
+		"QM_127x55_AP" : 1,
+
+		"QM_12x70_AP" : 0.5,
+		"QM_12x70_Flechette" : 1,
+
+		"QM_30mm_scopes" : 1,
+
+		"QM_GPNVG_18_NVGs" : 1,
+
+		"QM_HighCapacity_mags": 1
+	},
+
+	"questsLevelRequirements" : {
+		"QM_46x30_AP" : 35,
+
+		"QM_9x19_AP" : 20,
+		"QM_9x19_PBP" : 40,
+
+		"QM_9x21_BT" : 45,
+
+		"QM_45_AP" : 35,
+
+		"QM_545x39_BT" : 35,
+		"QM_545x39_7N40" : 45,
+		"QM_545x39_BP" : 25,
+		"QM_545x39_PPBS" : 55,
+
+		"QM_556x45_M856A1" : 30,
+		"QM_556x45_M855A1" : 35,
+		"QM_556x45_M995" : 45,
+		"QM_556x45_SSA" : 55,
+
+		"QM_300Blackout_M62" : 30,
+		"QM_300Blackout_CBJ" : 40,
+		"QM_300Blackout_AP" : 50,
+
+		"QM_762x39_BP" : 35,
+		"QM_762x39_MAI" : 55,
+
+		"QM_762x51_M62" : 45,
+		"QM_762x51_M61" : 55,
+		"QM_762x51_M993" : 65,
+
+		"QM_762x54_BT" : 45,
+		"QM_762x54_SNB" : 55,
+		"QM_762x54_BS" : 65,
+
+		"QM_338_AP" : 65,
+
+		"QM_9x39_SP6" : 35,
+		"QM_9x39_PAB9" : 45,
+		"QM_9x39_BP" : 55,
+
+		"QM_127x55_AP" : 40,
+
+		"QM_12x70_AP" : 30,
+		"QM_12x70_Flechette" : 35,
+
+		"QM_30mm_scopes" : 20,
+
+		"QM_GPNVG_18_NVGs" : 30,
+
+		"QM_HighCapacity_mags": 25
+	}
+}

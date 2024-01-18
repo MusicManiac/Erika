@@ -1,0 +1,1418 @@
+{
+  "QM_HighCapacity_mags": {
+    "QuestName": "Getting those high capacity mags",
+    "_id": "QM_HighCapacity_mags",
+    "acceptPlayerMessage": "QM_HighCapacity_mags description",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "QM_HighCapacity_mags changeQuestMessageText",
+    "completePlayerMessage": "QM_HighCapacity_mags successMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5a351711c4a282000b1521a4"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_1",
+            "index": 1,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "544a37c44bdc2d25388b4567"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_2",
+            "index": 2,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "59c1383d86f774290a37e0ca"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_3",
+            "index": 3,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5addccf45acfc400185c2989"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_4",
+            "index": 4,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5bed625c0db834001c062946"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_5",
+            "index": 5,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5b7bef9c5acfc43d102852ec"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_6",
+            "index": 6,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": ["5cf8f3b0d7f00c00217872ef"],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags HandoverItem_7",
+            "index": 6,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": ["5cf8f3b0d7f00c00217872ef",
+              "5b7bef9c5acfc43d102852ec",
+              "5bed625c0db834001c062946",
+              "5addccf45acfc400185c2989",
+              "59c1383d86f774290a37e0ca",
+              "544a37c44bdc2d25388b4567",
+              "5a351711c4a282000b1521a4"
+            ],
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Interchange"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "TarkovStreets"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "assault"
+                    ],
+                    "target": "Savage",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_10",
+            "index": 10,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_11",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "AnyPmc",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_12",
+            "index": 12,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "bossGluhar",
+                      "bossBully",
+                      "bossBoar",
+                      "bossTagilla",
+                      "bossSanitar",
+                      "bossKojaniy",
+                      "bossKilla",
+                      "sectantPriest"
+                    ],
+                    "target": "Savage",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_13",
+            "index": 13,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                  "compareMethod": ">=",
+                  "id": "thisIsRandomizedInCode",
+                  "target": "Any",
+                  "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                  "distance": {
+                    "compareMethod": "<=",
+                    "value": 10
+                  },
+                  "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_14",
+            "index": 14,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_15",
+            "index": 15,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "40",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 40
+                  },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 80
+                  },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                  },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": ["SMGs"],
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": ["assaultRifles"],
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_21",
+            "index": 21,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "40",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": ["LMGs"],
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_23",
+            "index": 23,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": ["shotguns"],
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_24",
+            "index": 24,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": ["DMRs"],
+                    "weaponModsInclusive": [
+                      "5a351711c4a282000b1521a4",
+                      "544a37c44bdc2d25388b4567",
+                      "59c1383d86f774290a37e0ca",
+                      "5addccf45acfc400185c2989",
+                      "5bed625c0db834001c062946",
+                      "5b7bef9c5acfc43d102852ec",
+                      "5cf8f3b0d7f00c00217872ef"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_HighCapacity_mags Kills_25",
+            "index": 25,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "thisIsRandomizedInCode",
+            "index": 0,
+            "parentId": "",
+            "value": 25,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "QM_HighCapacity_mags description",
+    "failMessageText": "QM_HighCapacity_mags failMessageText",
+    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "QM_HighCapacity_mags name",
+    "note": "QM_HighCapacity_mags note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_0",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_0",
+          "type": "AssortmentUnlock",
+          "index": 0,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_0",
+                  "_tpl": "5a351711c4a282000b1521a4",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_1",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_1",
+          "type": "AssortmentUnlock",
+          "index": 0,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_1",
+                  "_tpl": "544a37c44bdc2d25388b4567",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_2",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_2",
+          "type": "AssortmentUnlock",
+          "index": 2,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_2",
+                  "_tpl": "59c1383d86f774290a37e0ca",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_3",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_3",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_3",
+                  "_tpl": "5addccf45acfc400185c2989",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_4",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_4",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_4",
+                  "_tpl": "5bed625c0db834001c062946",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_5",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_5",
+          "type": "AssortmentUnlock",
+          "index": 5,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_5",
+                  "_tpl": "5b7bef9c5acfc43d102852ec",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
+          "id": "QM_HighCapacity_mags Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
+          "type": "AssortmentUnlock",
+          "index": 6,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+              {
+                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
+                  "_tpl": "5cf8f3b0d7f00c00217872ef",
+                  "parentId": "hideout",
+                  "slotId": "hideout"
+              }
+          ]
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "QM_HighCapacity_mags description",
+    "successMessageText": "QM_HighCapacity_mags successMessageText",
+    "templateId": "QM_HighCapacity_mags",
+    "traderId": "Erika_Temporal_Id",
+    "type": "Skill"
+  }
+}
