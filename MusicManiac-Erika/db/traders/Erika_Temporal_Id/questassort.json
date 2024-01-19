@@ -62,7 +62,18 @@
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_3" : "QM_HighCapacity_mags",
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_4" : "QM_HighCapacity_mags",
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_5" : "QM_HighCapacity_mags",
-		"Erika_Temporal_Id QM_HighCapacity_mags Trade_6" : "QM_HighCapacity_mags"
+		"Erika_Temporal_Id QM_HighCapacity_mags Trade_6" : "QM_HighCapacity_mags",
+
+		"Erika_Temporal_Id QM_Stims Trade_0" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_1" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_2" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_3" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_4" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_5" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_6" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_7" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_8" : "QM_Stims",
+		"Erika_Temporal_Id QM_Stims Trade_9" : "QM_Stims"
 	},
 	"fail": {}
 }

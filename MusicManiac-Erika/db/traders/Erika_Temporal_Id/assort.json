@@ -229,6 +229,56 @@
 			"_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
 			"_tpl": "5cf8f3b0d7f00c00217872ef",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 12 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_0",
+			"_tpl": "637b620db7afa97bfc3d7009",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_1",
+			"_tpl": "5c0e530286f7747fa1419862",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_2",
+			"_tpl": "5c0e534186f7747fa1419867",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_3",
+			"_tpl": "5c0e533786f7747fa23f4d47",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_4",
+			"_tpl": "5ed5160a87bb8443d10680b5",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_5",
+			"_tpl": "5c0e531d86f7747fa23f4d42",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_6",
+			"_tpl": "5ed5166ad380ab312177c100",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_7",
+			"_tpl": "637b60c3b7afa97bfc3d7001",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_8",
+			"_tpl": "5ed51652f6c34d2cc26336a1",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Stims Trade_9",
+			"_tpl": "637b612fb7afa97bfc3d7005",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
 		}
 	],
 	"barter_scheme": {
@@ -415,6 +465,46 @@
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_6": [[{
 			"count": 200, 
 			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_0": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_1": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_2": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_3": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_4": [[{
+			"count": 11111, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_5": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_6": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_7": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_8": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Stims Trade_9": [[{
+			"count": 11111, 
+			"_tpl": "569668774bdc2da2298b4568"
 		}]]
 	},
   	"loyal_level_items": {
@@ -479,6 +569,17 @@
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_3" : 1,
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_4" : 1,
 		"Erika_Temporal_Id QM_HighCapacity_mags Trade_5" : 1,
-		"Erika_Temporal_Id QM_HighCapacity_mags Trade_6" : 1
+		"Erika_Temporal_Id QM_HighCapacity_mags Trade_6" : 1,
+
+		"Erika_Temporal_Id QM_Stims Trade_0" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_1" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_2" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_3" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_4" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_5" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_6" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_7" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_8" : 1,
+		"Erika_Temporal_Id QM_Stims Trade_9" : 1
  	 }
 }

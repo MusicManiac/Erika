@@ -528,7 +528,11 @@
                       "bossSanitar",
                       "bossKojaniy",
                       "bossKilla",
-                      "sectantPriest"
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
                     ],
                     "target": "Savage",
                     "weapon": ["SMGs9x21", "pistols9x21"],

@@ -528,7 +528,11 @@
                       "bossSanitar",
                       "bossKojaniy",
                       "bossKilla",
-                      "sectantPriest"
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles9x39", "DMRs9x39"],
@@ -1395,7 +1399,11 @@
                       "bossSanitar",
                       "bossKojaniy",
                       "bossKilla",
-                      "sectantPriest"
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles9x39", "DMRs9x39"],
@@ -2262,7 +2270,11 @@
                       "bossSanitar",
                       "bossKojaniy",
                       "bossKilla",
-                      "sectantPriest"
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
                     ],
                     "target": "Savage",
                     "weapon": ["assaultRifles9x39", "DMRs9x39"],

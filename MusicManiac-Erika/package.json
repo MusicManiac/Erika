@@ -1,9 +1,9 @@
 {
     "name": "MusicManiac-Erika",
     "author": "MusicManiac",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "license": "MIT",
-    "main": "src/mod.js",
+    "main": "src/mod.ts",
     "akiVersion": "3.7.x",
     "scripts": {
         "setup": "npm i",
