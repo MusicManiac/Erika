@@ -25,7 +25,7 @@
   "QM_9x21_BT description": "Everyone likes high pen ammo, right? Well this one ain't easy to come by. But I'll tell you what, you prove to me that you can obtain it without my help and that you are proficient with this caliber regardless of the map, enemy you fighting or distance and I'll let you buy it from my stock",
   "QM_9x21_BT failMessageText": "",
   "QM_9x21_BT location": "any",
-  "QM_9x21_BT name": "Getting that 9x21mm PBP gzh",
+  "QM_9x21_BT name": "Getting that 9x21mm BT gzh",
   "QM_9x21_BT note": "",
   "QM_9x21_BT successMessageText": "Well now you at least have proper ammo"
 }

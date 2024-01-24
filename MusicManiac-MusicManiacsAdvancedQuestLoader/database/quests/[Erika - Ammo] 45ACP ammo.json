@@ -40,7 +40,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -79,7 +82,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -119,7 +125,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -158,7 +167,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -197,7 +209,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -236,7 +251,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -275,7 +293,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -314,7 +335,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -353,7 +377,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 },
@@ -395,7 +422,10 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -428,7 +458,10 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -461,7 +494,10 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -491,7 +527,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -535,7 +574,10 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -549,7 +591,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +611,10 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -596,15 +641,18 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["SMGs45", "pistols45"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -633,7 +681,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +698,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -681,11 +735,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -695,11 +752,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -729,11 +789,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45", "pistols45"],
+                    "weapon": [
+                      "SMGs45",
+                      "pistols45"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -763,7 +826,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs45"],
+                    "weapon": [
+                      "SMGs45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -793,7 +858,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["pistols45"],
+                    "weapon": [
+                      "pistols45"
+                    ],
                     "value": "1"
                   }
                 }
@@ -852,14 +919,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_45_AP Trade",
-                  "_tpl": "5efb0cabfb3e451d70735af5",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_45_AP Trade",
+              "_tpl": "5efb0cabfb3e451d70735af5",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,

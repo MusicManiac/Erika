@@ -1,11 +1,11 @@
 {
-  "QM_9x39_SP6": {
-    "QuestName": "Getting that 9x39mm SP-6 gs",
-    "_id": "QM_9x39_SP6",
-    "acceptPlayerMessage": "QM_9x39_SP6 description",
+  "QM_12x70_AP": {
+    "QuestName": "Getting that 12/70 AP-20 armor-piercing slug",
+    "_id": "QM_12x70_AP",
+    "acceptPlayerMessage": "QM_12x70_AP description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_9x39_SP6 changeQuestMessageText",
-    "completePlayerMessage": "QM_9x39_SP6 successMessageText",
+    "changeQuestMessageText": "QM_12x70_AP changeQuestMessageText",
+    "completePlayerMessage": "QM_12x70_AP successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,7 +14,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 HandoverItem_0",
+            "id": "QM_12x70_AP HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -22,7 +22,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "57a0e5022459774d1673f889"
+              "5d6e68a8a4b9360b6c0d54e2"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -40,7 +40,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -58,7 +61,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_0",
+            "id": "QM_12x70_AP Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -79,7 +82,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -98,7 +104,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_1",
+            "id": "QM_12x70_AP Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -119,7 +125,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -137,7 +146,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_2",
+            "id": "QM_12x70_AP Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -158,7 +167,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -176,7 +188,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_3",
+            "id": "QM_12x70_AP Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -197,7 +209,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -215,7 +230,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_4",
+            "id": "QM_12x70_AP Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -236,7 +251,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -254,7 +272,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_5",
+            "id": "QM_12x70_AP Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -275,7 +293,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -293,7 +314,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_6",
+            "id": "QM_12x70_AP Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -314,7 +335,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -332,7 +356,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_7",
+            "id": "QM_12x70_AP Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -353,7 +377,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 },
@@ -371,7 +398,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_8",
+            "id": "QM_12x70_AP Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -395,7 +422,10 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -404,7 +434,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_9",
+            "id": "QM_12x70_AP Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -428,7 +458,10 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -437,7 +470,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_10",
+            "id": "QM_12x70_AP Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -461,7 +494,10 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -470,7 +506,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_11",
+            "id": "QM_12x70_AP Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -491,7 +527,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -500,7 +539,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_12",
+            "id": "QM_12x70_AP Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -535,7 +574,10 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -544,12 +586,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_13",
+            "id": "QM_12x70_AP Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +611,10 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -578,7 +623,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_69",
+            "id": "QM_12x70_AP Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -596,15 +641,18 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -612,12 +660,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_14",
+            "id": "QM_12x70_AP Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "20",
+            "value": "30",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -633,7 +681,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +698,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -660,12 +714,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_15",
+            "id": "QM_12x70_AP Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "60",
+            "value": "40",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -681,11 +735,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -695,11 +752,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -708,42 +768,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_16",
+            "id": "QM_12x70_AP Kills_16",
             "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_17",
-            "index": 17,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -763,7 +789,14 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles9x39"],
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                    },
                     "value": "1"
                   }
                 }
@@ -772,12 +805,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_18",
-            "index": 18,
+            "id": "QM_12x70_AP Kills_17",
+            "index": 17,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "60",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -793,7 +826,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["DMRs9x39"],
+                    "weapon": [
+                      "revolvers12x70"
+                    ],
                     "value": "1"
                   }
                 }
@@ -802,12 +837,982 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x39_SP6 Kills_19",
+            "id": "QM_12x70_AP Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_AP Kills_19",
             "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
+            "value": "40",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "thisIsRandomizedInCode",
+            "index": 0,
+            "parentId": "",
+            "value": 20,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "QM_12x70_AP description",
+    "failMessageText": "QM_12x70_AP failMessageText",
+    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "QM_12x70_AP name",
+    "note": "QM_12x70_AP note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "target": "Erika_Temporal_Id QM_12x70_AP Trade",
+          "id": "QM_12x70_AP Erika_Temporal_Id QM_12x70_AP Trade",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_12x70_AP Trade",
+              "_tpl": "5d6e68a8a4b9360b6c0d54e2",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "QM_12x70_AP description",
+    "successMessageText": "QM_12x70_AP successMessageText",
+    "templateId": "QM_12x70_AP",
+    "traderId": "Erika_Temporal_Id",
+    "type": "Skill"
+  },
+  "QM_12x70_Flechette": {
+    "QuestName": "Getting that 12/70 flechette gzh",
+    "_id": "QM_12x70_Flechette",
+    "acceptPlayerMessage": "QM_12x70_Flechette description",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "QM_12x70_Flechette changeQuestMessageText",
+    "completePlayerMessage": "QM_12x70_Flechette successMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette HandoverItem_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5d6e6911a4b9361bd5780d52"
+            ],
+            "value": "600",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Interchange"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "TarkovStreets"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "assault"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_10",
+            "index": 10,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_11",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "AnyPmc",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_12",
+            "index": 12,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "bossGluhar",
+                      "bossBully",
+                      "bossBoar",
+                      "bossTagilla",
+                      "bossSanitar",
+                      "bossKojaniy",
+                      "bossKilla",
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_13",
+            "index": 13,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_14",
+            "index": 14,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
             "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_15",
+            "index": 15,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "40",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70",
+                      "revolvers12x70"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "revolvers12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns12x70"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_12x70_Flechette Kills_19",
+            "index": 19,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "40",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -830,14 +1835,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_9x39_SP6 description",
-    "failMessageText": "QM_9x39_SP6 failMessageText",
+    "description": "QM_12x70_Flechette description",
+    "failMessageText": "QM_12x70_Flechette failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_9x39_SP6 name",
-    "note": "QM_9x39_SP6 note",
+    "name": "QM_12x70_Flechette name",
+    "note": "QM_12x70_Flechette note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -845,1770 +1850,28 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_9x39_SP6 Trade",
-          "id": "QM_9x39_SP6 Erika_Temporal_Id QM_9x39_SP6 Trade",
+          "target": "Erika_Temporal_Id QM_12x70_Flechette Trade",
+          "id": "QM_12x70_Flechette Erika_Temporal_Id QM_12x70_Flechette Trade",
           "type": "AssortmentUnlock",
           "index": 3,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_9x39_SP6 Trade",
-                  "_tpl": "57a0e5022459774d1673f889",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
-            ]
-        }
-      ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "QM_9x39_SP6 description",
-    "successMessageText": "QM_9x39_SP6 successMessageText",
-    "templateId": "QM_9x39_SP6",
-    "traderId": "Erika_Temporal_Id",
-    "type": "Skill"
-  },
-  "QM_9x39_PAB9": {
-    "QuestName": "Getting that 9x39mm PAB-9 gs",
-    "_id": "QM_9x39_PAB9",
-    "acceptPlayerMessage": "QM_9x39_PAB9 description",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_9x39_PAB9 changeQuestMessageText",
-    "completePlayerMessage": "QM_9x39_PAB9 successMessageText",
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "_parent": "HandoverItem",
-          "_props": {
-            "countInRaid": false,
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 HandoverItem_0",
-            "index": 0,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": false,
-            "parentId": "",
-            "target": [
-              "61962d879bb3d20b0946d385"
-            ],
-            "value": "600",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "bigmap"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_0",
-            "index": 0,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "factory4_day",
-                      "factory4_night"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_1",
-            "index": 1,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Interchange"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_2",
-            "index": 2,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "laboratory"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_3",
-            "index": 3,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Lighthouse"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_4",
-            "index": 4,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "RezervBase"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_5",
-            "index": 5,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Shoreline"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_6",
-            "index": 6,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "TarkovStreets"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_7",
-            "index": 7,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Woods"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_8",
-            "index": 8,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "pmcBot"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_9",
-            "index": 9,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "assault"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_10",
-            "index": 10,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "exUsec"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_11",
-            "index": 11,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "AnyPmc",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_12",
-            "index": 12,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "bossGluhar",
-                      "bossBully",
-                      "bossBoar",
-                      "bossTagilla",
-                      "bossSanitar",
-                      "bossKojaniy",
-                      "bossKilla",
-                      "sectantPriest",
-                      "bossKnight",
-                      "followerBirdEye",
-                      "followerBigPipe",
-                      "bossZryachiy"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_13",
-            "index": 13,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "sectantPriest",
-                      "sectantWarrior"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_69",
-            "index": 69,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_14",
-            "index": 14,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 10
-                    },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 40
-                    },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_15",
-            "index": 15,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "60",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 40
-                  },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_16",
-            "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "70",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_17",
-            "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_18",
-            "index": 18,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "60",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_PAB9 Kills_19",
-            "index": 19,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "AvailableForStart": [
-        {
-          "_parent": "Level",
-          "_props": {
-            "compareMethod": ">=",
-            "dynamicLocale": false,
-            "id": "thisIsRandomizedInCode",
-            "index": 0,
-            "parentId": "",
-            "value": 50,
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "Fail": []
-    },
-    "description": "QM_9x39_PAB9 description",
-    "failMessageText": "QM_9x39_PAB9 failMessageText",
-    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "name": "QM_9x39_PAB9 name",
-    "note": "QM_9x39_PAB9 note",
-    "questStatus": {},
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "target": "Erika_Temporal_Id QM_9x39_PAB9 Trade",
-          "id": "QM_9x39_PAB9 Erika_Temporal_Id QM_9x39_PAB9 Trade",
-          "type": "AssortmentUnlock",
-          "index": 3,
-          "loyaltyLevel": 1,
-          "traderId": "Erika_Temporal_Id",
-          "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_9x39_PAB9 Trade",
-                  "_tpl": "61962d879bb3d20b0946d385",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_12x70_Flechette Trade",
+              "_tpl": "5d6e6911a4b9361bd5780d52",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_9x39_PAB9 description",
-    "successMessageText": "QM_9x39_PAB9 successMessageText",
-    "templateId": "QM_9x39_PAB9",
-    "traderId": "Erika_Temporal_Id",
-    "type": "Skill"
-  },
-  "QM_9x39_BP": {
-    "QuestName": "Getting that 9x39mm BP gs",
-    "_id": "QM_9x39_BP",
-    "acceptPlayerMessage": "QM_9x39_BP description",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_9x39_BP changeQuestMessageText",
-    "completePlayerMessage": "QM_9x39_BP successMessageText",
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "_parent": "HandoverItem",
-          "_props": {
-            "countInRaid": false,
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP HandoverItem_0",
-            "index": 0,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": false,
-            "parentId": "",
-            "target": [
-              "5c0d688c86f77413ae3407b2"
-            ],
-            "value": "600",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "bigmap"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_0",
-            "index": 0,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "factory4_day",
-                      "factory4_night"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_1",
-            "index": 1,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Interchange"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_2",
-            "index": 2,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "laboratory"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_3",
-            "index": 3,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Lighthouse"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_4",
-            "index": 4,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "RezervBase"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_5",
-            "index": 5,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Shoreline"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_6",
-            "index": 6,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "TarkovStreets"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_7",
-            "index": 7,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Woods"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_8",
-            "index": 8,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "pmcBot"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_9",
-            "index": 9,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "assault"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_10",
-            "index": 10,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "exUsec"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_11",
-            "index": 11,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "AnyPmc",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_12",
-            "index": 12,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "bossGluhar",
-                      "bossBully",
-                      "bossBoar",
-                      "bossTagilla",
-                      "bossSanitar",
-                      "bossKojaniy",
-                      "bossKilla",
-                      "sectantPriest",
-                      "bossKnight",
-                      "followerBirdEye",
-                      "followerBigPipe",
-                      "bossZryachiy"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_13",
-            "index": 13,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "sectantPriest",
-                      "sectantWarrior"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_69",
-            "index": 69,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_14",
-            "index": 14,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 10
-                    },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 40
-                    },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_15",
-            "index": 15,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "60",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 40
-                  },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_16",
-            "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "70",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39", "DMRs9x39"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_17",
-            "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_18",
-            "index": 18,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "60",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["DMRs9x39"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x39_BP Kills_19",
-            "index": 19,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "AvailableForStart": [
-        {
-          "_parent": "Level",
-          "_props": {
-            "compareMethod": ">=",
-            "dynamicLocale": false,
-            "id": "thisIsRandomizedInCode",
-            "index": 0,
-            "parentId": "",
-            "value": 60,
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "Fail": []
-    },
-    "description": "QM_9x39_BP description",
-    "failMessageText": "QM_9x39_BP failMessageText",
-    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "name": "QM_9x39_BP name",
-    "note": "QM_9x39_BP note",
-    "questStatus": {},
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "target": "Erika_Temporal_Id QM_9x39_BP Trade",
-          "id": "QM_9x39_BP Erika_Temporal_Id QM_9x39_BP Trade",
-          "type": "AssortmentUnlock",
-          "index": 3,
-          "loyaltyLevel": 1,
-          "traderId": "Erika_Temporal_Id",
-          "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_9x39_BP Trade",
-                  "_tpl": "5c0d688c86f77413ae3407b2",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
-          ]
-      }
-      ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "QM_9x39_BP description",
-    "successMessageText": "QM_9x39_BP successMessageText",
-    "templateId": "QM_9x39_BP",
+    "startedMessageText": "QM_12x70_Flechette description",
+    "successMessageText": "QM_12x70_Flechette successMessageText",
+    "templateId": "QM_12x70_Flechette",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }

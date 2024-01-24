@@ -1,11 +1,11 @@
 {
-  "QM_127x55_AP": {
-    "QuestName": "Getting that 12.7x55mm PS12B",
-    "_id": "QM_127x55_AP",
-    "acceptPlayerMessage": "QM_127x55_AP description",
+  "QM_GPNVG_18_NVGs": {
+    "QuestName": "Getting those GPNVG-18 Night Vision goggles",
+    "_id": "QM_GPNVG_18_NVGs",
+    "acceptPlayerMessage": "QM_GPNVG_18_NVGs description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_127x55_AP changeQuestMessageText",
-    "completePlayerMessage": "QM_127x55_AP successMessageText",
+    "changeQuestMessageText": "QM_GPNVG_18_NVGs changeQuestMessageText",
+    "completePlayerMessage": "QM_GPNVG_18_NVGs successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,7 +14,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP HandoverItem_0",
+            "id": "QM_GPNVG_18_NVGs HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -22,9 +22,30 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "5cadf6eeae921500134b2799"
+              "5c0558060db834001b735271"
             ],
-            "value": "600",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs HandoverItem_1",
+            "index": 1,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5c0558060db834001b735271"
+            ],
+            "value": "2",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -40,7 +61,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -58,7 +89,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_0",
+            "id": "QM_GPNVG_18_NVGs Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -79,7 +110,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -98,7 +139,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_1",
+            "id": "QM_GPNVG_18_NVGs Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -119,7 +160,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -137,7 +188,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_2",
+            "id": "QM_GPNVG_18_NVGs Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -158,46 +209,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "laboratory"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_3",
-            "index": 3,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -215,7 +237,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_4",
+            "id": "QM_GPNVG_18_NVGs Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -236,7 +258,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -254,7 +286,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_5",
+            "id": "QM_GPNVG_18_NVGs Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -275,7 +307,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -293,7 +335,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_6",
+            "id": "QM_GPNVG_18_NVGs Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -314,7 +356,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -332,7 +384,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_7",
+            "id": "QM_GPNVG_18_NVGs Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -353,7 +405,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 },
@@ -371,7 +433,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_8",
+            "id": "QM_GPNVG_18_NVGs Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -395,7 +457,17 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -404,7 +476,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_9",
+            "id": "QM_GPNVG_18_NVGs Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -428,7 +500,17 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -437,7 +519,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_10",
+            "id": "QM_GPNVG_18_NVGs Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -461,7 +543,17 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -470,7 +562,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_11",
+            "id": "QM_GPNVG_18_NVGs Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -491,7 +583,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -500,7 +602,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_12",
+            "id": "QM_GPNVG_18_NVGs Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -535,7 +637,17 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -544,12 +656,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_13",
+            "id": "QM_GPNVG_18_NVGs Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +681,13 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
                     "value": "1"
                   }
                 }
@@ -578,7 +696,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_69",
+            "id": "QM_GPNVG_18_NVGs Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -596,15 +714,25 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["revolvers127x55", "assaultRifles127x55"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -612,7 +740,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_14",
+            "id": "QM_GPNVG_18_NVGs Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -633,7 +761,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +785,17 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -660,12 +808,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_15",
+            "id": "QM_GPNVG_18_NVGs Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "60",
+            "value": "20",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -681,11 +829,21 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -695,11 +853,21 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -708,12 +876,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_16",
+            "id": "QM_GPNVG_18_NVGs Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "50",
+            "value": "20",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -729,11 +897,21 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55", "assaultRifles127x55"],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -742,8 +920,51 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_17",
+            "id": "QM_GPNVG_18_NVGs Kills_17",
             "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "SMGs"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_18",
+            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -763,7 +984,20 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers127x55"],
+                    "weapon": [
+                      "pistols"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -772,12 +1006,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_18",
-            "index": 18,
+            "id": "QM_GPNVG_18_NVGs Kills_19",
+            "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "5",
+            "value": "10",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -793,7 +1027,20 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles127x55"],
+                    "weapon": [
+                      "revolvers"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
                     "value": "1"
                   }
                 }
@@ -802,12 +1049,270 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_127x55_AP Kills_19",
-            "index": 19,
+            "id": "QM_GPNVG_18_NVGs Kills_20",
+            "index": 20,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "60",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_21",
+            "index": 21,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultCarbines"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_22",
+            "index": 22,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "LMGs"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_23",
+            "index": 23,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "shotguns"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_24",
+            "index": 24,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "DMRs"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_25",
+            "index": 25,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "sniperRifles"
+                    ],
+                    "equipmentInclusive": [
+                      "5c0558060db834001b735271"
+                    ],
+                    "weaponModsExclusive": [
+                      "flashlights",
+                      "tacticalComboDevices"
+                    ],
+                    "daytime": {
+                      "from": 21,
+                      "to": 6
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_GPNVG_18_NVGs Kills_26",
+            "index": 26,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -830,14 +1335,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_127x55_AP description",
-    "failMessageText": "QM_127x55_AP failMessageText",
+    "description": "QM_GPNVG_18_NVGs description",
+    "failMessageText": "QM_GPNVG_18_NVGs failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_127x55_AP name",
-    "note": "QM_127x55_AP note",
+    "name": "QM_GPNVG_18_NVGs name",
+    "note": "QM_GPNVG_18_NVGs note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -845,28 +1350,28 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_127x55_AP Trade",
-          "id": "QM_127x55_AP Erika_Temporal_Id QM_127x55_AP Trade",
+          "target": "Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0",
+          "id": "QM_GPNVG_18_NVGs Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0",
           "type": "AssortmentUnlock",
-          "index": 3,
+          "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_127x55_AP Trade",
-                  "_tpl": "5cadf6eeae921500134b2799",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_GPNVG_18_NVGs Trade_0",
+              "_tpl": "5c0558060db834001b735271",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_127x55_AP description",
-    "successMessageText": "QM_127x55_AP successMessageText",
-    "templateId": "QM_127x55_AP",
+    "startedMessageText": "QM_GPNVG_18_NVGs description",
+    "successMessageText": "QM_GPNVG_18_NVGs successMessageText",
+    "templateId": "QM_GPNVG_18_NVGs",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }

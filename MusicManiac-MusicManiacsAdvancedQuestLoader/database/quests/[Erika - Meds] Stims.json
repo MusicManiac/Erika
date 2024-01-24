@@ -1,11 +1,11 @@
 {
-  "QM_30mm_scopes": {
-    "QuestName": "Getting those 30mm riflescopes",
-    "_id": "QM_30mm_scopes",
-    "acceptPlayerMessage": "QM_30mm_scopes description",
+  "QM_Stims": {
+    "QuestName": "Getting those stims",
+    "_id": "QM_Stims",
+    "acceptPlayerMessage": "QM_Stims description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_30mm_scopes changeQuestMessageText",
-    "completePlayerMessage": "QM_30mm_scopes successMessageText",
+    "changeQuestMessageText": "QM_Stims changeQuestMessageText",
+    "completePlayerMessage": "QM_Stims successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,15 +14,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_0",
+            "id": "QM_Stims HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "5b2388675acfc4771e1be0be"
+              "637b620db7afa97bfc3d7009"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -35,15 +35,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_1",
+            "id": "QM_Stims HandoverItem_1",
             "index": 1,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "5b3b99475acfc432ff4dcbee"
+              "5c0e530286f7747fa1419862"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -56,15 +56,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_2",
+            "id": "QM_Stims HandoverItem_2",
             "index": 2,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "5a37cb10c4a282329a73b4e7"
+              "5c0e534186f7747fa1419867"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -77,15 +77,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_3",
+            "id": "QM_Stims HandoverItem_3",
             "index": 3,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "57c5ac0824597754771e88a9"
+              "5c0e533786f7747fa23f4d47"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -98,15 +98,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_4",
+            "id": "QM_Stims HandoverItem_4",
             "index": 4,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "618ba27d9008e4636a67f61d"
+              "5ed5160a87bb8443d10680b5"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -119,15 +119,15 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_5",
+            "id": "QM_Stims HandoverItem_5",
             "index": 5,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
-            "onlyFoundInRaid": false,
+            "onlyFoundInRaid": true,
             "parentId": "",
             "target": [
-              "617151c1d92c473c770214ab"
+              "5c0e531d86f7747fa23f4d42"
             ],
             "value": "10",
             "visibilityConditions": []
@@ -140,15 +140,91 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes HandoverItem_6",
+            "id": "QM_Stims HandoverItem_6",
             "index": 6,
             "isEncoded": false,
             "maxDurability": 100,
             "minDurability": 0,
             "onlyFoundInRaid": true,
             "parentId": "",
-            "target": ["scopes30mm"],
+            "target": [
+              "5ed5166ad380ab312177c100",
+              "637b60c3b7afa97bfc3d7001"
+            ],
             "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Stims HandoverItem_8",
+            "index": 8,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5ed51652f6c34d2cc26336a1"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Stims HandoverItem_9",
+            "index": 9,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "637b612fb7afa97bfc3d7005"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Stims HandoverItem_10",
+            "index": 10,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "544fb3f34bdc2d03748b456a",
+              "5ed515e03a40a50460332579",
+              "5c10c8fd86f7743d7d706df3",
+              "5fca138c2a7b221b2852a5c6",
+              "637b6251104668754b72f8f9",
+              "5ed515f6915ec335206e4152",
+              "637b6179104668754b72f8f5",
+              "5ed515ece452db0eb56fc028",
+              "5c0e531286f7747fa54205c2",
+              "5ed515c8d380ab312177c0fa",
+              "5fca13ca637ee0341a484f46"
+            ],
+            "value": "75",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -164,7 +240,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -176,13 +251,29 @@
                       "bigmap"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_0",
+            "id": "QM_Stims Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -203,7 +294,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -216,13 +306,29 @@
                       "factory4_night"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_1",
+            "id": "QM_Stims Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -243,7 +349,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -255,13 +360,29 @@
                       "Interchange"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_2",
+            "id": "QM_Stims Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -282,7 +403,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -294,13 +414,29 @@
                       "laboratory"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_3",
+            "id": "QM_Stims Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -321,7 +457,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -333,13 +468,29 @@
                       "Lighthouse"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_4",
+            "id": "QM_Stims Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -360,7 +511,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -372,13 +522,29 @@
                       "RezervBase"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_5",
+            "id": "QM_Stims Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -399,7 +565,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -411,13 +576,29 @@
                       "Shoreline"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_6",
+            "id": "QM_Stims Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -438,7 +619,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -450,13 +630,29 @@
                       "TarkovStreets"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_7",
+            "id": "QM_Stims Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -477,7 +673,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
                   }
                 },
@@ -489,13 +684,29 @@
                       "Woods"
                     ]
                   }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
+                  }
                 }
               ],
               "id": "thisIsSetInCode"
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_8",
+            "id": "QM_Stims Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -519,8 +730,23 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -528,7 +754,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_9",
+            "id": "QM_Stims Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -552,8 +778,23 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -561,7 +802,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_10",
+            "id": "QM_Stims Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -585,8 +826,23 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -594,7 +850,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_11",
+            "id": "QM_Stims Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -615,8 +871,23 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -624,7 +895,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_12",
+            "id": "QM_Stims Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -659,8 +930,23 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -668,12 +954,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_13",
+            "id": "QM_Stims Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -693,8 +979,23 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -702,7 +1003,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_69",
+            "id": "QM_Stims Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -720,15 +1021,30 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weaponModsInclusive": ["scopes30mm"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -736,7 +1052,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_14",
+            "id": "QM_Stims Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -757,7 +1073,6 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -771,12 +1086,27 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
                     },
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -784,7 +1114,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_15",
+            "id": "QM_Stims Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
@@ -805,11 +1135,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -819,12 +1148,27 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -832,7 +1176,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_16",
+            "id": "QM_Stims Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
@@ -853,12 +1197,27 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weaponModsInclusive": ["scopes30mm"],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -866,7 +1225,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_17",
+            "id": "QM_Stims Kills_17",
             "index": 17,
             "oneSessionOnly": false,
             "parentId": "",
@@ -887,9 +1246,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "SMGs"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -897,7 +1273,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_18",
+            "id": "QM_Stims Kills_18",
             "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
@@ -918,9 +1294,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["pistols"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "pistols"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -928,12 +1321,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_19",
+            "id": "QM_Stims Kills_19",
             "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "0",
+            "value": "10",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -949,9 +1342,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["revolvers"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "revolvers"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -959,7 +1369,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_20",
+            "id": "QM_Stims Kills_20",
             "index": 20,
             "oneSessionOnly": false,
             "parentId": "",
@@ -980,9 +1390,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "assaultRifles"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -990,7 +1417,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_21",
+            "id": "QM_Stims Kills_21",
             "index": 21,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1011,9 +1438,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "assaultCarbines"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -1021,7 +1465,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_22",
+            "id": "QM_Stims Kills_22",
             "index": 22,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1042,9 +1486,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "LMGs"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -1052,7 +1513,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_23",
+            "id": "QM_Stims Kills_23",
             "index": 23,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1073,9 +1534,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["shotguns"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "shotguns"
+                    ],
                     "value": "1"
+                  }
+                },
+                {
+                  "_parent": "HealthEffect",
+                  "_props": {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -1083,7 +1561,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_24",
+            "id": "QM_Stims Kills_24",
             "index": 24,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1104,40 +1582,26 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["DMRs"],
-                    "weaponModsInclusive": ["scopes30mm"],
+                    "weapon": [
+                      "DMRs"
+                    ],
                     "value": "1"
                   }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_25",
-            "index": 25,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
+                },
                 {
-                  "_parent": "Kills",
+                  "_parent": "HealthEffect",
                   "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["sniperRifles"],
-                    "weaponModsInclusive": ["scopes30mm"],
-                    "value": "1"
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head"
+                        ],
+                        "effects": [
+                          "Stimulator"
+                        ]
+                      }
+                    ],
+                    "id": "thisIsRandomizedInCode"
                   }
                 }
               ],
@@ -1145,8 +1609,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_30mm_scopes Kills_26",
-            "index": 26,
+            "id": "QM_Stims Kills_25",
+            "index": 25,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -1165,7 +1629,7 @@
             "id": "thisIsRandomizedInCode",
             "index": 0,
             "parentId": "",
-            "value": 40,
+            "value": 25,
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1173,14 +1637,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_30mm_scopes description",
-    "failMessageText": "QM_30mm_scopes failMessageText",
+    "description": "QM_Stims description",
+    "failMessageText": "QM_Stims failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_30mm_scopes name",
-    "note": "QM_30mm_scopes note",
+    "name": "QM_Stims name",
+    "note": "QM_Stims note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -1188,108 +1652,172 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_0",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_0",
+          "target": "Erika_Temporal_Id QM_Stims Trade_0",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_0",
           "type": "AssortmentUnlock",
           "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_0",
-                  "_tpl": "5b2388675acfc4771e1be0be",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_0",
+              "_tpl": "637b620db7afa97bfc3d7009",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_1",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_1",
+          "target": "Erika_Temporal_Id QM_Stims Trade_1",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_1",
           "type": "AssortmentUnlock",
           "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_1",
-                  "_tpl": "5b3b99475acfc432ff4dcbee",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_1",
+              "_tpl": "5c0e530286f7747fa1419862",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_2",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_2",
+          "target": "Erika_Temporal_Id QM_Stims Trade_2",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_2",
           "type": "AssortmentUnlock",
           "index": 2,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_2",
-                  "_tpl": "5a37cb10c4a282329a73b4e7",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_2",
+              "_tpl": "5c0e534186f7747fa1419867",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_3",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_3",
+          "target": "Erika_Temporal_Id QM_Stims Trade_3",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_3",
           "type": "AssortmentUnlock",
           "index": 3,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_3",
-                  "_tpl": "57c5ac0824597754771e88a9",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_3",
+              "_tpl": "5c0e533786f7747fa23f4d47",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_4",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_4",
+          "target": "Erika_Temporal_Id QM_Stims Trade_4",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_4",
           "type": "AssortmentUnlock",
           "index": 4,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_4",
-                  "_tpl": "618ba27d9008e4636a67f61d",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_4",
+              "_tpl": "5ed5160a87bb8443d10680b5",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
-          "target": "Erika_Temporal_Id QM_30mm_scopes Trade_5",
-          "id": "QM_30mm_scopes Erika_Temporal_Id QM_30mm_scopes Trade_5",
+          "target": "Erika_Temporal_Id QM_Stims Trade_5",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_5",
           "type": "AssortmentUnlock",
           "index": 5,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_30mm_scopes Trade_5",
-                  "_tpl": "617151c1d92c473c770214ab",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_5",
+              "_tpl": "5c0e531d86f7747fa23f4d42",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_Stims Trade_6",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_6",
+          "type": "AssortmentUnlock",
+          "index": 6,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_6",
+              "_tpl": "5ed5166ad380ab312177c100",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_Stims Trade_7",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_7",
+          "type": "AssortmentUnlock",
+          "index": 7,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_7",
+              "_tpl": "637b60c3b7afa97bfc3d7001",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_Stims Trade_8",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_8",
+          "type": "AssortmentUnlock",
+          "index": 8,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_8",
+              "_tpl": "5ed51652f6c34d2cc26336a1",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_Stims Trade_9",
+          "id": "QM_Stims Erika_Temporal_Id QM_Stims Trade_9",
+          "type": "AssortmentUnlock",
+          "index": 9,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_Stims Trade_9",
+              "_tpl": "637b612fb7afa97bfc3d7005",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_30mm_scopes description",
-    "successMessageText": "QM_30mm_scopes successMessageText",
-    "templateId": "QM_30mm_scopes",
+    "startedMessageText": "QM_Stims description",
+    "successMessageText": "QM_Stims successMessageText",
+    "templateId": "QM_Stims",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }

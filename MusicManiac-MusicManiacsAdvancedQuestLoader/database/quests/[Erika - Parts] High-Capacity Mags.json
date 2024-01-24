@@ -147,7 +147,9 @@
             "minDurability": 0,
             "onlyFoundInRaid": false,
             "parentId": "",
-            "target": ["5cf8f3b0d7f00c00217872ef"],
+            "target": [
+              "5cf8f3b0d7f00c00217872ef"
+            ],
             "value": "10",
             "visibilityConditions": []
           },
@@ -166,7 +168,8 @@
             "minDurability": 0,
             "onlyFoundInRaid": true,
             "parentId": "",
-            "target": ["5cf8f3b0d7f00c00217872ef",
+            "target": [
+              "5cf8f3b0d7f00c00217872ef",
               "5b7bef9c5acfc43d102852ec",
               "5bed625c0db834001c062946",
               "5addccf45acfc400185c2989",
@@ -811,7 +814,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -866,10 +869,10 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weaponModsInclusive": [
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
                       "59c1383d86f774290a37e0ca",
@@ -878,11 +881,11 @@
                       "5b7bef9c5acfc43d102852ec",
                       "5cf8f3b0d7f00c00217872ef"
                     ],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -987,7 +990,7 @@
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -1009,7 +1012,7 @@
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -1051,7 +1054,7 @@
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -1081,7 +1084,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs"],
+                    "weapon": [
+                      "SMGs"
+                    ],
                     "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
@@ -1120,7 +1125,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles"],
+                    "weapon": [
+                      "assaultRifles"
+                    ],
                     "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
@@ -1159,7 +1166,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs"],
+                    "weapon": [
+                      "LMGs"
+                    ],
                     "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
@@ -1198,7 +1207,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["shotguns"],
+                    "weapon": [
+                      "shotguns"
+                    ],
                     "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
@@ -1237,7 +1248,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["DMRs"],
+                    "weapon": [
+                      "DMRs"
+                    ],
                     "weaponModsInclusive": [
                       "5a351711c4a282000b1521a4",
                       "544a37c44bdc2d25388b4567",
@@ -1305,12 +1318,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_0",
-                  "_tpl": "5a351711c4a282000b1521a4",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_0",
+              "_tpl": "5a351711c4a282000b1521a4",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1321,12 +1334,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_1",
-                  "_tpl": "544a37c44bdc2d25388b4567",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_1",
+              "_tpl": "544a37c44bdc2d25388b4567",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1337,12 +1350,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_2",
-                  "_tpl": "59c1383d86f774290a37e0ca",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_2",
+              "_tpl": "59c1383d86f774290a37e0ca",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1353,12 +1366,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_3",
-                  "_tpl": "5addccf45acfc400185c2989",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_3",
+              "_tpl": "5addccf45acfc400185c2989",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1369,12 +1382,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_4",
-                  "_tpl": "5bed625c0db834001c062946",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_4",
+              "_tpl": "5bed625c0db834001c062946",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1385,12 +1398,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_5",
-                  "_tpl": "5b7bef9c5acfc43d102852ec",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_5",
+              "_tpl": "5b7bef9c5acfc43d102852ec",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         },
         {
@@ -1401,12 +1414,12 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
-                  "_tpl": "5cf8f3b0d7f00c00217872ef",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_HighCapacity_mags Trade_6",
+              "_tpl": "5cf8f3b0d7f00c00217872ef",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
         }
       ]

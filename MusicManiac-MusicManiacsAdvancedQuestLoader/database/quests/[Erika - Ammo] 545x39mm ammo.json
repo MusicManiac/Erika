@@ -40,7 +40,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -79,7 +83,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -119,7 +127,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -158,7 +170,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -197,7 +213,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -236,7 +256,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -275,7 +299,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -314,7 +342,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -353,7 +385,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -395,7 +431,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -428,7 +468,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -461,7 +505,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -491,7 +539,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -535,7 +587,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -549,7 +605,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +625,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -596,15 +656,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -633,7 +697,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +715,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -681,11 +753,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -695,11 +771,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -729,11 +809,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -763,7 +847,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39"],
+                    "weapon": [
+                      "assaultRifles545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -793,7 +879,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines545x39"],
+                    "weapon": [
+                      "assaultCarbines545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -823,7 +911,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs545x39"],
+                    "weapon": [
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -882,14 +972,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_545x39_BT Trade",
-                  "_tpl": "56dff061d2720bb5668b4567",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_545x39_BT Trade",
+              "_tpl": "56dff061d2720bb5668b4567",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
@@ -941,7 +1031,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -980,7 +1074,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1020,7 +1118,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1059,7 +1161,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1098,7 +1204,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1137,7 +1247,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1176,7 +1290,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1215,7 +1333,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1254,7 +1376,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1296,7 +1422,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1329,7 +1459,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1362,7 +1496,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1392,7 +1530,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1436,7 +1578,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1450,7 +1596,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1470,7 +1616,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1497,15 +1647,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -1534,7 +1688,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -1548,7 +1706,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -1582,11 +1744,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -1596,11 +1762,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -1630,11 +1800,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -1664,7 +1838,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39"],
+                    "weapon": [
+                      "assaultRifles545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1694,7 +1870,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines545x39"],
+                    "weapon": [
+                      "assaultCarbines545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1724,7 +1902,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs545x39"],
+                    "weapon": [
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -1783,14 +1963,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_545x39_7N40 Trade",
-                  "_tpl": "61962b617c6c7b169525f168",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_545x39_7N40 Trade",
+              "_tpl": "61962b617c6c7b169525f168",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
@@ -1842,7 +2022,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1881,7 +2065,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1921,7 +2109,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1960,7 +2152,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -1999,7 +2195,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2038,7 +2238,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2077,7 +2281,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2116,7 +2324,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2155,7 +2367,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2197,7 +2413,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2230,7 +2450,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2263,7 +2487,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2293,7 +2521,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2337,7 +2569,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2351,7 +2587,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -2371,7 +2607,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2398,15 +2638,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -2435,7 +2679,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -2449,7 +2697,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -2483,11 +2735,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -2497,11 +2753,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -2531,11 +2791,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -2565,7 +2829,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39"],
+                    "weapon": [
+                      "assaultRifles545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2595,7 +2861,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines545x39"],
+                    "weapon": [
+                      "assaultCarbines545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2625,7 +2893,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs545x39"],
+                    "weapon": [
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -2684,14 +2954,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_545x39_BP Trade",
-                  "_tpl": "56dfef82d2720bbd668b4567",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_545x39_BP Trade",
+              "_tpl": "56dfef82d2720bbd668b4567",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
@@ -2743,7 +3013,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2782,7 +3056,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2822,7 +3100,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2861,7 +3143,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2900,7 +3186,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2939,7 +3229,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -2978,7 +3272,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3017,7 +3315,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3056,7 +3358,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3098,7 +3404,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3131,7 +3441,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3164,7 +3478,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3194,7 +3512,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3238,7 +3560,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3252,7 +3578,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -3272,7 +3598,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3299,15 +3629,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -3336,7 +3670,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -3350,7 +3688,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -3384,11 +3726,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -3398,11 +3744,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -3432,11 +3782,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -3466,7 +3820,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39"],
+                    "weapon": [
+                      "assaultRifles545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3496,7 +3852,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines545x39"],
+                    "weapon": [
+                      "assaultCarbines545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3526,7 +3884,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs545x39"],
+                    "weapon": [
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -3585,14 +3945,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_545x39_BS Trade",
-                  "_tpl": "56dff026d2720bb8668b4567",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_545x39_BS Trade",
+              "_tpl": "56dff026d2720bb8668b4567",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
@@ -3644,7 +4004,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3683,7 +4047,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3723,7 +4091,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3762,7 +4134,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3801,7 +4177,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3840,7 +4220,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3879,7 +4263,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3918,7 +4306,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3957,7 +4349,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -3999,7 +4395,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4032,7 +4432,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4065,7 +4469,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4095,7 +4503,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4139,7 +4551,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4153,7 +4569,7 @@
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -4173,7 +4589,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4200,15 +4620,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -4237,7 +4661,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -4251,7 +4679,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -4285,11 +4717,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -4299,11 +4735,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -4333,11 +4773,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39", "assaultCarbines545x39", "LMGs545x39"],
+                    "weapon": [
+                      "assaultRifles545x39",
+                      "assaultCarbines545x39",
+                      "LMGs545x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -4367,7 +4811,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles545x39"],
+                    "weapon": [
+                      "assaultRifles545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4397,7 +4843,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultCarbines545x39"],
+                    "weapon": [
+                      "assaultCarbines545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4427,7 +4875,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["LMGs545x39"],
+                    "weapon": [
+                      "LMGs545x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -4486,14 +4936,14 @@
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_545x39_PPBS Trade",
-                  "_tpl": "5c0d5e4486f77478390952fe",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_545x39_PPBS Trade",
+              "_tpl": "5c0d5e4486f77478390952fe",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,

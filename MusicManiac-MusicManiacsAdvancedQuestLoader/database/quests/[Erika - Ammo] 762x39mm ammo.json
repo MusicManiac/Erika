@@ -1,11 +1,11 @@
 {
-  "QM_300Blackout_M62": {
-    "QuestName": "Getting that .300 Blackout M62 Tracer",
-    "_id": "QM_300Blackout_M62",
-    "acceptPlayerMessage": "QM_300Blackout_M62 description",
+  "QM_762x39_BP": {
+    "QuestName": "Getting that 7.62x39mm BP gzh",
+    "_id": "QM_762x39_BP",
+    "acceptPlayerMessage": "QM_762x39_BP description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_300Blackout_M62 changeQuestMessageText",
-    "completePlayerMessage": "QM_300Blackout_M62 successMessageText",
+    "changeQuestMessageText": "QM_762x39_BP changeQuestMessageText",
+    "completePlayerMessage": "QM_762x39_BP successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,7 +14,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 HandoverItem_0",
+            "id": "QM_762x39_BP HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -22,7 +22,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "619636be6db0f2477964e710"
+              "59e0d99486f7744a32234762"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -40,7 +40,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -58,7 +62,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_0",
+            "id": "QM_762x39_BP Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -79,7 +83,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -98,7 +106,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_1",
+            "id": "QM_762x39_BP Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -119,7 +127,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -137,7 +149,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_2",
+            "id": "QM_762x39_BP Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -158,7 +170,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -176,7 +192,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_3",
+            "id": "QM_762x39_BP Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -197,7 +213,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -215,7 +235,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_4",
+            "id": "QM_762x39_BP Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -236,7 +256,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -254,7 +278,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_5",
+            "id": "QM_762x39_BP Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -275,7 +299,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -293,7 +321,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_6",
+            "id": "QM_762x39_BP Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -314,7 +342,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -332,7 +364,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_7",
+            "id": "QM_762x39_BP Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -353,7 +385,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 },
@@ -371,7 +407,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_8",
+            "id": "QM_762x39_BP Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -395,7 +431,11 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -404,7 +444,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_9",
+            "id": "QM_762x39_BP Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -428,7 +468,11 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -437,7 +481,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_10",
+            "id": "QM_762x39_BP Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -461,7 +505,11 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -470,7 +518,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_11",
+            "id": "QM_762x39_BP Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -491,7 +539,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -500,7 +552,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_12",
+            "id": "QM_762x39_BP Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -535,7 +587,11 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -544,12 +600,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_13",
+            "id": "QM_762x39_BP Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +625,11 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "value": "1"
                   }
                 }
@@ -578,7 +638,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_69",
+            "id": "QM_762x39_BP Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -596,15 +656,19 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles300"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -612,7 +676,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_14",
+            "id": "QM_762x39_BP Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -633,7 +697,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +715,11 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -660,7 +732,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_15",
+            "id": "QM_762x39_BP Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
@@ -681,11 +753,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 40
-                  },
+                    },
                     "value": "1"
                   }
                 },
@@ -695,11 +771,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -708,7 +788,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_16",
+            "id": "QM_762x39_BP Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
@@ -729,11 +809,15 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 80
-                  },
+                    },
                     "value": "1"
                   }
                 }
@@ -742,7 +826,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_M62 Kills_17",
+            "id": "QM_762x39_BP Kills_17",
             "index": 17,
             "oneSessionOnly": false,
             "parentId": "",
@@ -751,94 +835,6 @@
             "visibilityConditions": []
           },
           "dynamicLocale": false
-        }
-      ],
-      "AvailableForStart": [
-        {
-          "_parent": "Level",
-          "_props": {
-            "compareMethod": ">=",
-            "dynamicLocale": false,
-            "id": "thisIsRandomizedInCode",
-            "index": 0,
-            "parentId": "",
-            "value": 25,
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "Fail": []
-    },
-    "description": "QM_300Blackout_M62 description",
-    "failMessageText": "QM_300Blackout_M62 failMessageText",
-    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "name": "QM_300Blackout_M62 name",
-    "note": "QM_300Blackout_M62 note",
-    "questStatus": {},
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "target": "Erika_Temporal_Id QM_300Blackout_M62 Trade",
-          "id": "QM_300Blackout_M62 Erika_Temporal_Id QM_300Blackout_M62 Trade",
-          "type": "AssortmentUnlock",
-          "index": 3,
-          "loyaltyLevel": 1,
-          "traderId": "Erika_Temporal_Id",
-          "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_300Blackout_M62 Trade",
-                  "_tpl": "619636be6db0f2477964e710",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
-          ]
-      }
-      ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "QM_300Blackout_M62 description",
-    "successMessageText": "QM_300Blackout_M62 successMessageText",
-    "templateId": "QM_300Blackout_M62",
-    "traderId": "Erika_Temporal_Id",
-    "type": "Skill"
-  },
-  "QM_300Blackout_CBJ": {
-    "QuestName": "Getting that .300 Blackout CBJ",
-    "_id": "QM_300Blackout_CBJ",
-    "acceptPlayerMessage": "QM_300Blackout_CBJ description",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_300Blackout_CBJ changeQuestMessageText",
-    "completePlayerMessage": "QM_300Blackout_CBJ successMessageText",
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "_parent": "HandoverItem",
-          "_props": {
-            "countInRaid": false,
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ HandoverItem_0",
-            "index": 0,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": false,
-            "parentId": "",
-            "target": [
-              "64b8725c4b75259c590fa899"
-            ],
-            "value": "600",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
         },
         {
           "_parent": "CounterCreator",
@@ -851,362 +847,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "bigmap"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_0",
-            "index": 0,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "factory4_day",
-                      "factory4_night"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_1",
-            "index": 1,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Interchange"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_2",
-            "index": 2,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "laboratory"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_3",
-            "index": 3,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Lighthouse"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_4",
-            "index": 4,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "RezervBase"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_5",
-            "index": 5,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Shoreline"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_6",
-            "index": 6,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "TarkovStreets"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_7",
-            "index": 7,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Woods"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_8",
-            "index": 8,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "pmcBot"
+                    "weapon": [
+                      "assaultRifles762x39"
                     ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
                     "value": "1"
                   }
                 }
@@ -1215,264 +858,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_9",
-            "index": 9,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "assault"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_10",
-            "index": 10,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "exUsec"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_11",
-            "index": 11,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "AnyPmc",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_12",
-            "index": 12,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "bossGluhar",
-                      "bossBully",
-                      "bossBoar",
-                      "bossTagilla",
-                      "bossSanitar",
-                      "bossKojaniy",
-                      "bossKilla",
-                      "sectantPriest",
-                      "bossKnight",
-                      "followerBirdEye",
-                      "followerBigPipe",
-                      "bossZryachiy"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_13",
-            "index": 13,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "sectantPriest",
-                      "sectantWarrior"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_69",
-            "index": 69,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles300"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_14",
-            "index": 14,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 10
-                    },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 40
-                    },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_15",
-            "index": 15,
+            "id": "QM_762x39_BP Kills_18",
+            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -1492,532 +879,9 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 40
-                  },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_16",
-            "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_CBJ Kills_17",
-            "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "AvailableForStart": [
-        {
-          "_parent": "Level",
-          "_props": {
-            "compareMethod": ">=",
-            "dynamicLocale": false,
-            "id": "thisIsRandomizedInCode",
-            "index": 0,
-            "parentId": "",
-            "value": 35,
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        }
-      ],
-      "Fail": []
-    },
-    "description": "QM_300Blackout_CBJ description",
-    "failMessageText": "QM_300Blackout_CBJ failMessageText",
-    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "name": "QM_300Blackout_CBJ name",
-    "note": "QM_300Blackout_CBJ note",
-    "questStatus": {},
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "target": "Erika_Temporal_Id QM_300Blackout_CBJ Trade",
-          "id": "QM_300Blackout_CBJ Erika_Temporal_Id QM_300Blackout_CBJ Trade",
-          "type": "AssortmentUnlock",
-          "index": 3,
-          "loyaltyLevel": 1,
-          "traderId": "Erika_Temporal_Id",
-          "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_300Blackout_CBJ Trade",
-                  "_tpl": "64b8725c4b75259c590fa899",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
-          ]
-      }
-      ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "QM_300Blackout_CBJ description",
-    "successMessageText": "QM_300Blackout_CBJ successMessageText",
-    "templateId": "QM_300Blackout_CBJ",
-    "traderId": "Erika_Temporal_Id",
-    "type": "Skill"
-  },
-  "QM_300Blackout_AP": {
-    "QuestName": "Getting that .300 Blackout AP",
-    "_id": "QM_300Blackout_AP",
-    "acceptPlayerMessage": "QM_300Blackout_AP description",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_300Blackout_AP changeQuestMessageText",
-    "completePlayerMessage": "QM_300Blackout_AP successMessageText",
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "_parent": "HandoverItem",
-          "_props": {
-            "countInRaid": false,
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP HandoverItem_0",
-            "index": 0,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": false,
-            "parentId": "",
-            "target": [
-              "5fd20ff893a8961fc660a954"
-            ],
-            "value": "600",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "bigmap"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_0",
-            "index": 0,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "factory4_day",
-                      "factory4_night"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_1",
-            "index": 1,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Interchange"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_2",
-            "index": 2,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "laboratory"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_3",
-            "index": 3,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Lighthouse"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_4",
-            "index": 4,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "RezervBase"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_5",
-            "index": 5,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Shoreline"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_6",
-            "index": 6,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "TarkovStreets"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_7",
-            "index": 7,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Location",
-                  "_props": {
-                    "id": "thisIsRandomizedInCode",
-                    "target": [
-                      "Woods"
-                    ]
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_8",
-            "index": 8,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "pmcBot"
+                    "weapon": [
+                      "assaultCarbines762x39"
                     ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
                     "value": "1"
                   }
                 }
@@ -2026,350 +890,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_9",
-            "index": 9,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "assault"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_10",
-            "index": 10,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "exUsec"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_11",
-            "index": 11,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "AnyPmc",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_12",
-            "index": 12,
+            "id": "QM_762x39_BP Kills_19",
+            "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
             "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "bossGluhar",
-                      "bossBully",
-                      "bossBoar",
-                      "bossTagilla",
-                      "bossSanitar",
-                      "bossKojaniy",
-                      "bossKilla",
-                      "sectantPriest",
-                      "bossKnight",
-                      "followerBirdEye",
-                      "followerBigPipe",
-                      "bossZryachiy"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_13",
-            "index": 13,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "savageRole": [
-                      "sectantPriest",
-                      "sectantWarrior"
-                    ],
-                    "target": "Savage",
-                    "weapon": ["assaultRifles300"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_69",
-            "index": 69,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["assaultRifles300"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_14",
-            "index": 14,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 10
-                    },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 40
-                    },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_15",
-            "index": 15,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "60",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 40
-                  },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_16",
-            "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "50",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["assaultRifles300"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_300Blackout_AP Kills_17",
-            "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -2392,14 +918,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_300Blackout_AP description",
-    "failMessageText": "QM_300Blackout_AP failMessageText",
+    "description": "QM_762x39_BP description",
+    "failMessageText": "QM_762x39_BP failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_300Blackout_AP name",
-    "note": "QM_300Blackout_AP note",
+    "name": "QM_762x39_BP name",
+    "note": "QM_762x39_BP note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -2407,28 +933,987 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_300Blackout_AP Trade",
-          "id": "QM_300Blackout_AP Erika_Temporal_Id QM_300Blackout_AP Trade",
+          "target": "Erika_Temporal_Id QM_762x39_BP Trade",
+          "id": "QM_762x39_BP Erika_Temporal_Id QM_762x39_BP Trade",
           "type": "AssortmentUnlock",
           "index": 3,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_300Blackout_AP Trade",
-                  "_tpl": "5fd20ff893a8961fc660a954",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_762x39_BP Trade",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_300Blackout_AP description",
-    "successMessageText": "QM_300Blackout_AP successMessageText",
-    "templateId": "QM_300Blackout_AP",
+    "startedMessageText": "QM_762x39_BP description",
+    "successMessageText": "QM_762x39_BP successMessageText",
+    "templateId": "QM_762x39_BP",
+    "traderId": "Erika_Temporal_Id",
+    "type": "Skill"
+  },
+  "QM_762x39_MAI": {
+    "QuestName": "Getting that 7.62x39mm MAI AP",
+    "_id": "QM_762x39_MAI",
+    "acceptPlayerMessage": "QM_762x39_MAI description",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "QM_762x39_MAI changeQuestMessageText",
+    "completePlayerMessage": "QM_762x39_MAI successMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI HandoverItem_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "601aa3d2b2bcb34913271e6d"
+            ],
+            "value": "600",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Interchange"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "TarkovStreets"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "assault"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_10",
+            "index": 10,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_11",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "AnyPmc",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_12",
+            "index": 12,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "bossGluhar",
+                      "bossBully",
+                      "bossBoar",
+                      "bossTagilla",
+                      "bossSanitar",
+                      "bossKojaniy",
+                      "bossKilla",
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_13",
+            "index": 13,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_14",
+            "index": 14,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_15",
+            "index": 15,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39",
+                      "assaultCarbines762x39",
+                      "LMGs762x39"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultCarbines762x39"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_762x39_MAI Kills_19",
+            "index": 19,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "thisIsRandomizedInCode",
+            "index": 0,
+            "parentId": "",
+            "value": 55,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "QM_762x39_MAI description",
+    "failMessageText": "QM_762x39_MAI failMessageText",
+    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "QM_762x39_MAI name",
+    "note": "QM_762x39_MAI note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "target": "Erika_Temporal_Id QM_762x39_MAI Trade",
+          "id": "QM_762x39_MAI Erika_Temporal_Id QM_762x39_MAI Trade",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_762x39_MAI Trade",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "QM_762x39_MAI description",
+    "successMessageText": "QM_762x39_MAI successMessageText",
+    "templateId": "QM_762x39_MAI",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }

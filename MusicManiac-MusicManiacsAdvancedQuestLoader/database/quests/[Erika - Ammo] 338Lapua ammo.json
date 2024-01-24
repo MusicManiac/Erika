@@ -1,11 +1,11 @@
 {
-  "QM_9x21_BT": {
-    "QuestName": "Getting that 9x21mm BT gzh",
-    "_id": "QM_9x21_BT",
-    "acceptPlayerMessage": "QM_9x21_BT description",
+  "QM_338_AP": {
+    "QuestName": "Getting that .338 Lapua Magnum AP",
+    "_id": "QM_338_AP",
+    "acceptPlayerMessage": "QM_338_AP description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_9x21_BT changeQuestMessageText",
-    "completePlayerMessage": "QM_9x21_BT successMessageText",
+    "changeQuestMessageText": "QM_338_AP changeQuestMessageText",
+    "completePlayerMessage": "QM_338_AP successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,7 +14,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT HandoverItem_0",
+            "id": "QM_338_AP HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -22,7 +22,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "5a26ac0ec4a28200741e1e18"
+              "5fc382a9d724d907e2077dab"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -40,7 +40,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -58,7 +61,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_0",
+            "id": "QM_338_AP Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -79,7 +82,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -98,7 +104,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_1",
+            "id": "QM_338_AP Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -119,7 +125,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -137,7 +146,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_2",
+            "id": "QM_338_AP Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -158,7 +167,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -176,7 +188,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_3",
+            "id": "QM_338_AP Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -197,7 +209,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -215,7 +230,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_4",
+            "id": "QM_338_AP Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -236,7 +251,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -254,7 +272,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_5",
+            "id": "QM_338_AP Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -275,7 +293,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -293,7 +314,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_6",
+            "id": "QM_338_AP Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -314,7 +335,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -332,7 +356,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_7",
+            "id": "QM_338_AP Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -353,7 +377,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 },
@@ -371,7 +398,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_8",
+            "id": "QM_338_AP Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -395,7 +422,10 @@
                       "pmcBot"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -404,7 +434,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_9",
+            "id": "QM_338_AP Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -428,7 +458,10 @@
                       "assault"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -437,7 +470,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_10",
+            "id": "QM_338_AP Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -461,7 +494,10 @@
                       "exUsec"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -470,7 +506,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_11",
+            "id": "QM_338_AP Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -491,7 +527,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -500,7 +539,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_12",
+            "id": "QM_338_AP Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -535,7 +574,10 @@
                       "bossZryachiy"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -544,12 +586,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_13",
+            "id": "QM_338_AP Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -569,7 +611,10 @@
                       "sectantWarrior"
                     ],
                     "target": "Savage",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "value": "1"
                   }
                 }
@@ -578,7 +623,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_69",
+            "id": "QM_338_AP Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -596,15 +641,18 @@
                 {
                   "_parent": "Kills",
                   "_props": {
-                  "compareMethod": ">=",
-                  "id": "thisIsRandomizedInCode",
-                  "target": "Any",
-                  "weapon": ["SMGs9x21", "pistols9x21"],
-                  "distance": {
-                    "compareMethod": "<=",
-                    "value": 10
-                  },
-                  "value": "1"
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
                   }
                 }
               ],
@@ -612,12 +660,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_14",
+            "id": "QM_338_AP Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "20",
+            "value": "10",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -633,7 +681,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "distance": {
                       "compareMethod": ">",
                       "value": 10
@@ -647,7 +698,10 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
                     "distance": {
                       "compareMethod": "<=",
                       "value": 40
@@ -660,120 +714,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_15",
+            "id": "QM_338_AP Kills_15",
             "index": 15,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "40",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 40
-                  },
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
-                    "distance": {
-                      "compareMethod": "<=",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_16",
-            "index": 16,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "10",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["SMGs9x21", "pistols9x21"],
-                    "distance": {
-                      "compareMethod": ">",
-                      "value": 80
-                  },
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_17",
-            "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "5",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": ["SMGs9x21"],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_18",
-            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -793,7 +735,31 @@
                     "compareMethod": ">=",
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
-                    "weapon": ["pistols9x21"],
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 80
+                    },
                     "value": "1"
                   }
                 }
@@ -802,12 +768,113 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_9x21_BT Kills_19",
+            "id": "QM_338_AP Kills_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "DMRs338",
+                      "sniperRifles338"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_338_AP Kills_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "DMRs338"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_338_AP Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "sniperRifles338"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_338_AP Kills_19",
             "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "10",
+            "value": "20",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -822,7 +889,7 @@
             "id": "thisIsRandomizedInCode",
             "index": 0,
             "parentId": "",
-            "value": 40,
+            "value": 65,
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -830,14 +897,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_9x21_BT description",
-    "failMessageText": "QM_9x21_BT failMessageText",
+    "description": "QM_338_AP description",
+    "failMessageText": "QM_338_AP failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_9x21_BT name",
-    "note": "QM_9x21_BT note",
+    "name": "QM_338_AP name",
+    "note": "QM_338_AP note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -845,28 +912,28 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_9x21_BT Trade",
-          "id": "QM_9x21_BT Erika_Temporal_Id QM_9x21_BT Trade",
+          "target": "Erika_Temporal_Id QM_338_AP Trade",
+          "id": "QM_338_AP Erika_Temporal_Id QM_338_AP Trade",
           "type": "AssortmentUnlock",
           "index": 3,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
-              {
-                  "_id": "Erika_Temporal_Id QM_9x21_BT Trade",
-                  "_tpl": "5a26ac0ec4a28200741e1e18",
-                  "parentId": "hideout",
-                  "slotId": "hideout"
-              }
+            {
+              "_id": "Erika_Temporal_Id QM_338_AP Trade",
+              "_tpl": "5fc382a9d724d907e2077dab",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
           ]
-      }
+        }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_9x21_BT description",
-    "successMessageText": "QM_9x21_BT successMessageText",
-    "templateId": "QM_9x21_BT",
+    "startedMessageText": "QM_338_AP description",
+    "successMessageText": "QM_338_AP successMessageText",
+    "templateId": "QM_338_AP",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }
