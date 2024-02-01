@@ -1,48 +1,75 @@
 {
 	"started": {},
 	"success": {
-		"Erika_Temporal_Id QM_46x30_AP Trade" : "QM_46x30_AP",
+		"Erika_Temporal_Id QM_762x25_THV Trade" : "QM_762x25_THV",
+
+		"Erika_Temporal_Id QM_46x30_AP Trade_0" : "QM_46x30_AP",
+		"Erika_Temporal_Id QM_46x30_AP Trade_1" : "QM_46x30_AP",
 
 		"Erika_Temporal_Id QM_9x19_AP Trade" : "QM_9x19_AP",
-		"Erika_Temporal_Id QM_9x19_PBP Trade" : "QM_9x19_PBP",
+		"Erika_Temporal_Id QM_9x19_PBP Trade_0" : "QM_9x19_PBP",
+		"Erika_Temporal_Id QM_9x19_PBP Trade_1" : "QM_9x19_PBP",
 
-		"Erika_Temporal_Id QM_9x21_BT Trade" : "QM_9x21_BT",
+		"Erika_Temporal_Id QM_9x21_BT Trade_0" : "QM_9x21_BT",
+		"Erika_Temporal_Id QM_9x21_BT Trade_1" : "QM_9x21_BT",
+		"Erika_Temporal_Id QM_9x21_BT Trade_2" : "QM_9x21_BT",
 
 		"Erika_Temporal_Id QM_45_AP Trade" : "QM_45_AP",
+
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_0" : "QM_57x28_SS190",
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_1" : "QM_57x28_SS190",
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_0" : "QM_57x28_EAT6B",
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_1" : "QM_57x28_EAT6B",
 
 		"Erika_Temporal_Id QM_545x39_BT Trade" : "QM_545x39_BT",
 		"Erika_Temporal_Id QM_545x39_7N40 Trade" : "QM_545x39_7N40",
 		"Erika_Temporal_Id QM_545x39_BP Trade" : "QM_545x39_BP",
-		"Erika_Temporal_Id QM_545x39_BS Trade" : "QM_545x39_BS",
+		"Erika_Temporal_Id QM_545x39_BS Trade_0" : "QM_545x39_BS",
+		"Erika_Temporal_Id QM_545x39_BS Trade_1" : "QM_545x39_BS",
 		"Erika_Temporal_Id QM_545x39_PPBS Trade" : "QM_545x39_PPBS",
 
 		"Erika_Temporal_Id QM_556x45_M856A1 Trade" : "QM_556x45_M856A1",
-		"Erika_Temporal_Id QM_556x45_M855A1 Trade" : "QM_556x45_M855A1",
-		"Erika_Temporal_Id QM_556x45_M995 Trade" : "QM_556x45_M995",
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_0" : "QM_556x45_M855A1",
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_1" : "QM_556x45_M855A1",
+		"Erika_Temporal_Id QM_556x45_M995 Trade_0" : "QM_556x45_M995",
+		"Erika_Temporal_Id QM_556x45_M995 Trade_1" : "QM_556x45_M995",
 		"Erika_Temporal_Id QM_556x45_SSA Trade" : "QM_556x45_SSA",
 
 		"Erika_Temporal_Id QM_300Blackout_M62 Trade" : "QM_300Blackout_M62",
 		"Erika_Temporal_Id QM_300Blackout_CBJ Trade" : "QM_300Blackout_CBJ",
-		"Erika_Temporal_Id QM_300Blackout_AP Trade" : "QM_300Blackout_AP",
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_0" : "QM_300Blackout_AP",
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_1" : "QM_300Blackout_AP",
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_2" : "QM_300Blackout_AP",
 
-		"Erika_Temporal_Id QM_762x39_BP Trade" : "QM_762x39_BP",
+		"Erika_Temporal_Id QM_762x39_BP Trade_0" : "QM_762x39_BP",
+		"Erika_Temporal_Id QM_762x39_BP Trade_1" : "QM_762x39_BP",
 		"Erika_Temporal_Id QM_762x39_MAI Trade" : "QM_762x39_MAI",
 
 		"Erika_Temporal_Id QM_762x51_M62 Trade" : "QM_762x51_M62",
-		"Erika_Temporal_Id QM_762x51_M61 Trade" : "QM_762x51_M61",
-		"Erika_Temporal_Id QM_762x51_M993 Trade" : "QM_762x51_M993",
+		"Erika_Temporal_Id QM_762x51_M61 Trade_0" : "QM_762x51_M61",
+		"Erika_Temporal_Id QM_762x51_M61 Trade_1" : "QM_762x51_M61",
+		"Erika_Temporal_Id QM_762x51_M61 Trade_2" : "QM_762x51_M61",
+		"Erika_Temporal_Id QM_762x51_M61 Trade_3" : "QM_762x51_M61",
+		"Erika_Temporal_Id QM_762x51_M993 Trade_0" : "QM_762x51_M993",
+		"Erika_Temporal_Id QM_762x51_M993 Trade_1" : "QM_762x51_M993",
+		"Erika_Temporal_Id QM_762x51_DUDS Trade" : "QM_762x51_DUDS",
 
 		"Erika_Temporal_Id QM_762x54_BT Trade" : "QM_762x54_BT",
-		"Erika_Temporal_Id QM_762x54_SNB Trade" : "QM_762x54_SNB",
-		"Erika_Temporal_Id QM_762x54_BS Trade" : "QM_762x54_BS",
+		"Erika_Temporal_Id QM_762x54_SNB Trade_0" : "QM_762x54_SNB",
+		"Erika_Temporal_Id QM_762x54_SNB Trade_1" : "QM_762x54_SNB",
+		"Erika_Temporal_Id QM_762x54_SNB Trade_2" : "QM_762x54_SNB",
+		"Erika_Temporal_Id QM_762x54_BS Trade_0" : "QM_762x54_BS",
+		"Erika_Temporal_Id QM_762x54_BS Trade_1" : "QM_762x54_BS",
 
-		"Erika_Temporal_Id QM_338_AP Trade" : "QM_338_AP",
+		"Erika_Temporal_Id QM_338_AP Trade_0" : "QM_338_AP",
+		"Erika_Temporal_Id QM_338_AP Trade_1" : "QM_338_AP",
 
 		"Erika_Temporal_Id QM_9x39_SP6 Trade" : "QM_9x39_SP6",
 		"Erika_Temporal_Id QM_9x39_PAB9 Trade" : "QM_9x39_PAB9",
 		"Erika_Temporal_Id QM_9x39_BP Trade" : "QM_9x39_BP",
 
 		"Erika_Temporal_Id QM_127x55_AP Trade" : "QM_127x55_AP",
+		"Erika_Temporal_Id QM_127x55_Sabot Trade" : "QM_127x55_Sabot",
 
 		"Erika_Temporal_Id QM_12x70_AP Trade" : "QM_12x70_AP",
 		"Erika_Temporal_Id QM_12x70_Flechette Trade" : "QM_12x70_Flechette",

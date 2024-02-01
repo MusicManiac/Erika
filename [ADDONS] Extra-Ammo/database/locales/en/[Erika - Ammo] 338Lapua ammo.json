@@ -1,5 +1,5 @@
 {
-  "QM_338_AP HandoverItem_0": "Turn in .338 Lapua Magnum AP rounds",
+  "QM_338_AP HandoverItem_0": "Turn in .338 Lapua Magnum AP or 7N45 rounds",
   "QM_338_AP Kills_0": "Kill enemies with weapons chambered in .338 Lapua Magnum ammo on Customs",
   "QM_338_AP Kills_1": "Kill enemies with weapons chambered in .338 Lapua Magnum ammo on Factory",
   "QM_338_AP Kills_2": "Kill enemies with weapons chambered in .338 Lapua Magnum ammo on Interchange",
@@ -25,7 +25,7 @@
   "QM_338_AP description": "Everyone likes high pen ammo, right? Well this one ain't easy to come by. But I'll tell you what, you prove to me that you can obtain it without my help and that you are proficient with this caliber regardless of the map, enemy you fighting or distance and I'll let you buy it from my stock",
   "QM_338_AP failMessageText": "",
   "QM_338_AP location": "any",
-  "QM_338_AP name": "Getting that .338 Lapua Magnum AP",
+  "QM_338_AP name": "Getting that .338 Lapua Magnum AP and 7N45",
   "QM_338_AP note": "",
   "QM_338_AP successMessageText": "Well now you at least have devastating ammo"
 }

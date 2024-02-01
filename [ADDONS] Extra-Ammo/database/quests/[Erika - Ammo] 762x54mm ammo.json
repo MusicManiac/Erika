@@ -1097,7 +1097,7 @@
     "type": "Skill"
   },
   "QM_762x54_SNB": {
-    "QuestName": "Getting that 7.62x54mm R SNB gzh",
+    "QuestName": "Getting that 7.62x54mm R SNB gzh quality",
     "_id": "QM_762x54_SNB",
     "acceptPlayerMessage": "QM_762x54_SNB description",
     "canShowNotificationsInGame": true,
@@ -1119,7 +1119,9 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "560d61e84bdc2da74d8b4571"
+              "ExtraAmmo_762x54r_7n26",
+              "560d61e84bdc2da74d8b4571",
+              "ExtraAmmo_762x54r_7n41"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -2168,16 +2170,48 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_762x54_SNB Trade",
-          "id": "QM_762x54_SNB Erika_Temporal_Id QM_762x54_SNB Trade",
+          "target": "Erika_Temporal_Id QM_762x54_SNB Trade_0",
+          "id": "QM_762x54_SNB Erika_Temporal_Id QM_762x54_SNB Trade_0",
           "type": "AssortmentUnlock",
-          "index": 3,
+          "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
             {
-              "_id": "Erika_Temporal_Id QM_762x54_SNB Trade",
+              "_id": "Erika_Temporal_Id QM_762x54_SNB Trade_0",
+              "_tpl": "ExtraAmmo_762x54r_7n26",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_762x54_SNB Trade_1",
+          "id": "QM_762x54_SNB Erika_Temporal_Id QM_762x54_SNB Trade_1",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_762x54_SNB Trade_1",
               "_tpl": "560d61e84bdc2da74d8b4571",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_762x54_SNB Trade_2",
+          "id": "QM_762x54_SNB Erika_Temporal_Id QM_762x54_SNB Trade_2",
+          "type": "AssortmentUnlock",
+          "index": 2,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_762x54_SNB Trade_2",
+              "_tpl": "ExtraAmmo_762x54r_7n41",
               "parentId": "hideout",
               "slotId": "hideout"
             }
@@ -2216,6 +2250,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
+              "ExtraAmmo_762x54r_MAI_AP",
               "5e023d48186a883be655e551"
             ],
             "value": "600",
@@ -3265,15 +3300,31 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_762x54_BS Trade",
-          "id": "QM_762x54_BS Erika_Temporal_Id QM_762x54_BS Trade",
+          "target": "Erika_Temporal_Id QM_762x54_BS Trade_0",
+          "id": "QM_762x54_BS Erika_Temporal_Id QM_762x54_BS Trade_0",
           "type": "AssortmentUnlock",
-          "index": 3,
+          "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
             {
-              "_id": "Erika_Temporal_Id QM_762x54_BS Trade",
+              "_id": "Erika_Temporal_Id QM_762x54_BS Trade_0",
+              "_tpl": "ExtraAmmo_762x54r_MAI_AP",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_762x54_BS Trade_1",
+          "id": "QM_762x54_BS Erika_Temporal_Id QM_762x54_BS Trade_1",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_762x54_BS Trade_1",
               "_tpl": "5e023d48186a883be655e551",
               "parentId": "hideout",
               "slotId": "hideout"

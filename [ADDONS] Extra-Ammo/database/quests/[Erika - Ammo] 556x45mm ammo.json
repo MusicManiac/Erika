@@ -1,11 +1,11 @@
 {
-  "QM_762x54_BT": {
-    "QuestName": "Getting that 7.62x54mm R BT gzh",
-    "_id": "QM_762x54_BT",
-    "acceptPlayerMessage": "QM_762x54_BT description",
+  "QM_556x45_M856A1": {
+    "QuestName": "Getting that 5.56x45mm M856A1",
+    "_id": "QM_556x45_M856A1",
+    "acceptPlayerMessage": "QM_556x45_M856A1 description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_762x54_BT changeQuestMessageText",
-    "completePlayerMessage": "QM_762x54_BT successMessageText",
+    "changeQuestMessageText": "QM_556x45_M856A1 changeQuestMessageText",
+    "completePlayerMessage": "QM_556x45_M856A1 successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -14,7 +14,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT HandoverItem_0",
+            "id": "QM_556x45_M856A1 HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -22,7 +22,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "5e023d34e8a400319a28ed44"
+              "59e6906286f7746c9f75e847"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -41,11 +41,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -64,7 +61,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_0",
+            "id": "QM_556x45_M856A1 Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -86,11 +83,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -110,7 +104,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_1",
+            "id": "QM_556x45_M856A1 Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -132,11 +126,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -155,7 +146,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_2",
+            "id": "QM_556x45_M856A1 Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -177,11 +168,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -200,7 +188,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_3",
+            "id": "QM_556x45_M856A1 Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -222,11 +210,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -245,7 +230,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_4",
+            "id": "QM_556x45_M856A1 Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -267,11 +252,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -290,7 +272,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_5",
+            "id": "QM_556x45_M856A1 Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -312,11 +294,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -335,7 +314,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_6",
+            "id": "QM_556x45_M856A1 Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -357,11 +336,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -380,7 +356,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_7",
+            "id": "QM_556x45_M856A1 Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -402,11 +378,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -425,7 +398,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_8",
+            "id": "QM_556x45_M856A1 Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -450,11 +423,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -464,7 +434,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_9",
+            "id": "QM_556x45_M856A1 Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -489,11 +459,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -503,7 +470,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_10",
+            "id": "QM_556x45_M856A1 Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -528,11 +495,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -542,7 +506,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_11",
+            "id": "QM_556x45_M856A1 Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -564,11 +528,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -578,7 +539,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_12",
+            "id": "QM_556x45_M856A1 Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -614,11 +575,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -628,7 +586,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_13",
+            "id": "QM_556x45_M856A1 Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
@@ -654,11 +612,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -668,7 +623,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_69",
+            "id": "QM_556x45_M856A1 Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -690,11 +645,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -708,7 +660,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_14",
+            "id": "QM_556x45_M856A1 Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -730,11 +682,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -750,11 +699,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -768,7 +714,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_15",
+            "id": "QM_556x45_M856A1 Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
@@ -790,11 +736,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -810,11 +753,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -828,12 +768,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_16",
+            "id": "QM_556x45_M856A1 Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "70",
+            "value": "50",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -850,11 +790,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -868,104 +805,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_17",
+            "id": "QM_556x45_M856A1 Kills_17",
             "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "assaultCarbines762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_18",
-            "index": 18,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "LMGs762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_19",
-            "index": 19,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "shotguns762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_20",
-            "index": 20,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -986,7 +827,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "DMRs762x54"
+                      "assaultRifles556x45"
                     ],
                     "value": "1"
                   }
@@ -996,12 +837,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_21",
-            "index": 21,
+            "id": "QM_556x45_M856A1 Kills_18",
+            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "30",
+            "value": "60",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1018,7 +859,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "sniperRifles762x54"
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1028,8 +869,947 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BT Kills_22",
-            "index": 22,
+            "id": "QM_556x45_M856A1 Kills_19",
+            "index": 19,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "thisIsRandomizedInCode",
+            "index": 0,
+            "parentId": "",
+            "value": 25,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "QM_556x45_M856A1 description",
+    "failMessageText": "QM_556x45_M856A1 failMessageText",
+    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "QM_556x45_M856A1 name",
+    "note": "QM_556x45_M856A1 note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "target": "Erika_Temporal_Id QM_556x45_M856A1 Trade",
+          "id": "QM_556x45_M856A1 Erika_Temporal_Id QM_556x45_M856A1 Trade",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_556x45_M856A1 Trade",
+              "_tpl": "59e6906286f7746c9f75e847",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "QM_556x45_M856A1 description",
+    "successMessageText": "QM_556x45_M856A1 successMessageText",
+    "templateId": "QM_556x45_M856A1",
+    "traderId": "Erika_Temporal_Id",
+    "type": "Skill"
+  },
+  "QM_556x45_M855A1": {
+    "QuestName": "Getting that 5.56x45mm M855A1 and DM-31",
+    "_id": "QM_556x45_M855A1",
+    "acceptPlayerMessage": "QM_556x45_M855A1 description",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "QM_556x45_M855A1 changeQuestMessageText",
+    "completePlayerMessage": "QM_556x45_M855A1 successMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 HandoverItem_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "54527ac44bdc2d36668b4567",
+              "ExtraAmmo_556x45_DM31"
+            ],
+            "value": "600",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Interchange"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "TarkovStreets"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "thisIsRandomizedInCode",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "assault"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_10",
+            "index": 10,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_11",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "AnyPmc",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_12",
+            "index": 12,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "bossGluhar",
+                      "bossBully",
+                      "bossBoar",
+                      "bossTagilla",
+                      "bossSanitar",
+                      "bossKojaniy",
+                      "bossKilla",
+                      "sectantPriest",
+                      "bossKnight",
+                      "followerBirdEye",
+                      "followerBigPipe",
+                      "bossZryachiy"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_13",
+            "index": 13,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "savageRole": [
+                      "sectantPriest",
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_69",
+            "index": 69,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_14",
+            "index": 14,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 10
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_15",
+            "index": 15,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 40
+                    },
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": "<=",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
+                    ],
+                    "distance": {
+                      "compareMethod": ">",
+                      "value": 80
+                    },
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultRifles556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_18",
+            "index": 18,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "thisIsRandomizedInCode",
+                    "target": "Any",
+                    "weapon": [
+                      "assaultCarbines556x45"
+                    ],
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "thisIsSetInCode"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "QM_556x45_M855A1 Kills_19",
+            "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -1056,14 +1836,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_762x54_BT description",
-    "failMessageText": "QM_762x54_BT failMessageText",
+    "description": "QM_556x45_M855A1 description",
+    "failMessageText": "QM_556x45_M855A1 failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_762x54_BT name",
-    "note": "QM_762x54_BT note",
+    "name": "QM_556x45_M855A1 name",
+    "note": "QM_556x45_M855A1 note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -1071,16 +1851,32 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_762x54_BT Trade",
-          "id": "QM_762x54_BT Erika_Temporal_Id QM_762x54_BT Trade",
+          "target": "Erika_Temporal_Id QM_556x45_M855A1 Trade_0",
+          "id": "QM_556x45_M855A1 Erika_Temporal_Id QM_556x45_M855A1 Trade_0",
           "type": "AssortmentUnlock",
-          "index": 3,
+          "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
             {
-              "_id": "Erika_Temporal_Id QM_762x54_BT Trade",
-              "_tpl": "5e023d34e8a400319a28ed44",
+              "_id": "Erika_Temporal_Id QM_556x45_M855A1 Trade_0",
+              "_tpl": "54527ac44bdc2d36668b4567",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_556x45_M855A1 Trade_1",
+          "id": "QM_556x45_M855A1 Erika_Temporal_Id QM_556x45_M855A1 Trade_1",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_556x45_M855A1 Trade_1",
+              "_tpl": "ExtraAmmo_556x45_DM31",
               "parentId": "hideout",
               "slotId": "hideout"
             }
@@ -1090,19 +1886,19 @@
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_762x54_BT description",
-    "successMessageText": "QM_762x54_BT successMessageText",
-    "templateId": "QM_762x54_BT",
+    "startedMessageText": "QM_556x45_M855A1 description",
+    "successMessageText": "QM_556x45_M855A1 successMessageText",
+    "templateId": "QM_556x45_M855A1",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   },
-  "QM_762x54_SNB": {
-    "QuestName": "Getting that 7.62x54mm R SNB gzh",
-    "_id": "QM_762x54_SNB",
-    "acceptPlayerMessage": "QM_762x54_SNB description",
+  "QM_556x45_M995": {
+    "QuestName": "Getting that 5.56x45mm M995 and MAI AP",
+    "_id": "QM_556x45_M995",
+    "acceptPlayerMessage": "QM_556x45_M995 description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_762x54_SNB changeQuestMessageText",
-    "completePlayerMessage": "QM_762x54_SNB successMessageText",
+    "changeQuestMessageText": "QM_556x45_M995 changeQuestMessageText",
+    "completePlayerMessage": "QM_556x45_M995 successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -1111,7 +1907,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB HandoverItem_0",
+            "id": "QM_556x45_M995 HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -1119,7 +1915,8 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "560d61e84bdc2da74d8b4571"
+              "59e690b686f7746c9f75e848",
+              "ExtraAmmo_556x45_MAI_AP"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -1138,11 +1935,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1161,7 +1955,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_0",
+            "id": "QM_556x45_M995 Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1183,11 +1977,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1207,7 +1998,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_1",
+            "id": "QM_556x45_M995 Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1229,11 +2020,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1252,7 +2040,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_2",
+            "id": "QM_556x45_M995 Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1274,11 +2062,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1297,7 +2082,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_3",
+            "id": "QM_556x45_M995 Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1319,11 +2104,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1342,7 +2124,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_4",
+            "id": "QM_556x45_M995 Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1364,11 +2146,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1387,7 +2166,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_5",
+            "id": "QM_556x45_M995 Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1409,11 +2188,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1432,7 +2208,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_6",
+            "id": "QM_556x45_M995 Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1454,11 +2230,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1477,7 +2250,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_7",
+            "id": "QM_556x45_M995 Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1499,11 +2272,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1522,7 +2292,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_8",
+            "id": "QM_556x45_M995 Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1547,11 +2317,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1561,7 +2328,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_9",
+            "id": "QM_556x45_M995 Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1586,11 +2353,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1600,7 +2364,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_10",
+            "id": "QM_556x45_M995 Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1625,11 +2389,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1639,7 +2400,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_11",
+            "id": "QM_556x45_M995 Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1661,11 +2422,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1675,7 +2433,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_12",
+            "id": "QM_556x45_M995 Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1711,11 +2469,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1725,7 +2480,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_13",
+            "id": "QM_556x45_M995 Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1751,11 +2506,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -1765,7 +2517,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_69",
+            "id": "QM_556x45_M995 Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1787,11 +2539,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -1805,7 +2554,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_14",
+            "id": "QM_556x45_M995 Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1827,11 +2576,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -1847,11 +2593,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -1865,7 +2608,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_15",
+            "id": "QM_556x45_M995 Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
@@ -1887,11 +2630,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -1907,11 +2647,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -1925,12 +2662,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_16",
+            "id": "QM_556x45_M995 Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "70",
+            "value": "50",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -1947,11 +2684,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -1965,104 +2699,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_17",
+            "id": "QM_556x45_M995 Kills_17",
             "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "assaultCarbines762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_18",
-            "index": 18,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "LMGs762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_19",
-            "index": 19,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "shotguns762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_20",
-            "index": 20,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -2083,7 +2721,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "DMRs762x54"
+                      "assaultRifles556x45"
                     ],
                     "value": "1"
                   }
@@ -2093,12 +2731,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_21",
-            "index": 21,
+            "id": "QM_556x45_M995 Kills_18",
+            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "30",
+            "value": "60",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -2115,7 +2753,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "sniperRifles762x54"
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2125,8 +2763,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_SNB Kills_22",
-            "index": 22,
+            "id": "QM_556x45_M995 Kills_19",
+            "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -2153,14 +2791,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_762x54_SNB description",
-    "failMessageText": "QM_762x54_SNB failMessageText",
+    "description": "QM_556x45_M995 description",
+    "failMessageText": "QM_556x45_M995 failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_762x54_SNB name",
-    "note": "QM_762x54_SNB note",
+    "name": "QM_556x45_M995 name",
+    "note": "QM_556x45_M995 note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -2168,16 +2806,32 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_762x54_SNB Trade",
-          "id": "QM_762x54_SNB Erika_Temporal_Id QM_762x54_SNB Trade",
+          "target": "Erika_Temporal_Id QM_556x45_M995 Trade_0",
+          "id": "QM_556x45_M995 Erika_Temporal_Id QM_556x45_M995 Trade_0",
           "type": "AssortmentUnlock",
-          "index": 3,
+          "index": 0,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
             {
-              "_id": "Erika_Temporal_Id QM_762x54_SNB Trade",
-              "_tpl": "560d61e84bdc2da74d8b4571",
+              "_id": "Erika_Temporal_Id QM_556x45_M995 Trade_0",
+              "_tpl": "59e690b686f7746c9f75e848",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        },
+        {
+          "target": "Erika_Temporal_Id QM_556x45_M995 Trade_1",
+          "id": "QM_556x45_M995 Erika_Temporal_Id QM_556x45_M995 Trade_1",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_556x45_M995 Trade_1",
+              "_tpl": "ExtraAmmo_556x45_MAI_AP",
               "parentId": "hideout",
               "slotId": "hideout"
             }
@@ -2187,19 +2841,19 @@
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_762x54_SNB description",
-    "successMessageText": "QM_762x54_SNB successMessageText",
-    "templateId": "QM_762x54_SNB",
+    "startedMessageText": "QM_556x45_M995 description",
+    "successMessageText": "QM_556x45_M995 successMessageText",
+    "templateId": "QM_556x45_M995",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   },
-  "QM_762x54_BS": {
-    "QuestName": "Getting that 7.62x54mm R BS gs",
-    "_id": "QM_762x54_BS",
-    "acceptPlayerMessage": "QM_762x54_BS description",
+  "QM_556x45_SSA": {
+    "QuestName": "Getting that 5.56x45mm SSA AP",
+    "_id": "QM_556x45_SSA",
+    "acceptPlayerMessage": "QM_556x45_SSA description",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "QM_762x54_BS changeQuestMessageText",
-    "completePlayerMessage": "QM_762x54_BS successMessageText",
+    "changeQuestMessageText": "QM_556x45_SSA changeQuestMessageText",
+    "completePlayerMessage": "QM_556x45_SSA successMessageText",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -2208,7 +2862,7 @@
             "countInRaid": false,
             "dogtagLevel": 0,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS HandoverItem_0",
+            "id": "QM_556x45_SSA HandoverItem_0",
             "index": 0,
             "isEncoded": false,
             "maxDurability": 100,
@@ -2216,7 +2870,7 @@
             "onlyFoundInRaid": false,
             "parentId": "",
             "target": [
-              "5e023d48186a883be655e551"
+              "601949593ae8f707c4608daa"
             ],
             "value": "600",
             "visibilityConditions": []
@@ -2235,11 +2889,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2258,7 +2909,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_0",
+            "id": "QM_556x45_SSA Kills_0",
             "index": 0,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2280,11 +2931,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2304,7 +2952,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_1",
+            "id": "QM_556x45_SSA Kills_1",
             "index": 1,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2326,11 +2974,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2349,7 +2994,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_2",
+            "id": "QM_556x45_SSA Kills_2",
             "index": 2,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2371,11 +3016,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2394,7 +3036,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_3",
+            "id": "QM_556x45_SSA Kills_3",
             "index": 3,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2416,11 +3058,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2439,7 +3078,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_4",
+            "id": "QM_556x45_SSA Kills_4",
             "index": 4,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2461,11 +3100,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2484,7 +3120,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_5",
+            "id": "QM_556x45_SSA Kills_5",
             "index": 5,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2506,11 +3142,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2529,7 +3162,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_6",
+            "id": "QM_556x45_SSA Kills_6",
             "index": 6,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2551,11 +3184,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2574,7 +3204,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_7",
+            "id": "QM_556x45_SSA Kills_7",
             "index": 7,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2596,11 +3226,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2619,7 +3246,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_8",
+            "id": "QM_556x45_SSA Kills_8",
             "index": 8,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2644,11 +3271,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2658,7 +3282,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_9",
+            "id": "QM_556x45_SSA Kills_9",
             "index": 9,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2683,11 +3307,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2697,7 +3318,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_10",
+            "id": "QM_556x45_SSA Kills_10",
             "index": 10,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2722,11 +3343,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2736,7 +3354,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_11",
+            "id": "QM_556x45_SSA Kills_11",
             "index": 11,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2758,11 +3376,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "AnyPmc",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2772,7 +3387,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_12",
+            "id": "QM_556x45_SSA Kills_12",
             "index": 12,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2808,11 +3423,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2822,7 +3434,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_13",
+            "id": "QM_556x45_SSA Kills_13",
             "index": 13,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2848,11 +3460,8 @@
                     ],
                     "target": "Savage",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -2862,7 +3471,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_69",
+            "id": "QM_556x45_SSA Kills_69",
             "index": 69,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2884,11 +3493,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -2902,7 +3508,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_14",
+            "id": "QM_556x45_SSA Kills_14",
             "index": 14,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2924,11 +3530,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -2944,11 +3547,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -2962,7 +3562,7 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_15",
+            "id": "QM_556x45_SSA Kills_15",
             "index": 15,
             "oneSessionOnly": false,
             "parentId": "",
@@ -2984,11 +3584,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -3004,11 +3601,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": "<=",
@@ -3022,12 +3616,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_16",
+            "id": "QM_556x45_SSA Kills_16",
             "index": 16,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "70",
+            "value": "50",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -3044,11 +3638,8 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "assaultCarbines762x54",
-                      "LMGs762x54",
-                      "shotguns762x54",
-                      "DMRs762x54",
-                      "sniperRifles762x54"
+                      "assaultRifles556x45",
+                      "assaultCarbines556x45"
                     ],
                     "distance": {
                       "compareMethod": ">",
@@ -3062,104 +3653,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_17",
+            "id": "QM_556x45_SSA Kills_17",
             "index": 17,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "30",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "assaultCarbines762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_18",
-            "index": 18,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "LMGs762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_19",
-            "index": 19,
-            "oneSessionOnly": false,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "20",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "thisIsRandomizedInCode",
-                    "target": "Any",
-                    "weapon": [
-                      "shotguns762x54"
-                    ],
-                    "value": "1"
-                  }
-                }
-              ],
-              "id": "thisIsSetInCode"
-            },
-            "doNotResetIfCounterCompleted": false,
-            "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_20",
-            "index": 20,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -3180,7 +3675,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "DMRs762x54"
+                      "assaultRifles556x45"
                     ],
                     "value": "1"
                   }
@@ -3190,12 +3685,12 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_21",
-            "index": 21,
+            "id": "QM_556x45_SSA Kills_18",
+            "index": 18,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
-            "value": "30",
+            "value": "60",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -3212,7 +3707,7 @@
                     "id": "thisIsRandomizedInCode",
                     "target": "Any",
                     "weapon": [
-                      "sniperRifles762x54"
+                      "assaultCarbines556x45"
                     ],
                     "value": "1"
                   }
@@ -3222,8 +3717,8 @@
             },
             "doNotResetIfCounterCompleted": false,
             "dynamicLocale": false,
-            "id": "QM_762x54_BS Kills_22",
-            "index": 22,
+            "id": "QM_556x45_SSA Kills_19",
+            "index": 19,
             "oneSessionOnly": false,
             "parentId": "",
             "type": "Elimination",
@@ -3250,14 +3745,14 @@
       ],
       "Fail": []
     },
-    "description": "QM_762x54_BS description",
-    "failMessageText": "QM_762x54_BS failMessageText",
+    "description": "QM_556x45_SSA description",
+    "failMessageText": "QM_556x45_SSA failMessageText",
     "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "QM_762x54_BS name",
-    "note": "QM_762x54_BS note",
+    "name": "QM_556x45_SSA name",
+    "note": "QM_556x45_SSA note",
     "questStatus": {},
     "restartable": false,
     "rewards": {
@@ -3265,16 +3760,16 @@
       "Started": [],
       "Success": [
         {
-          "target": "Erika_Temporal_Id QM_762x54_BS Trade",
-          "id": "QM_762x54_BS Erika_Temporal_Id QM_762x54_BS Trade",
+          "target": "Erika_Temporal_Id QM_556x45_SSA Trade",
+          "id": "QM_556x45_SSA Erika_Temporal_Id QM_556x45_SSA Trade",
           "type": "AssortmentUnlock",
           "index": 3,
           "loyaltyLevel": 1,
           "traderId": "Erika_Temporal_Id",
           "items": [
             {
-              "_id": "Erika_Temporal_Id QM_762x54_BS Trade",
-              "_tpl": "5e023d48186a883be655e551",
+              "_id": "Erika_Temporal_Id QM_556x45_SSA Trade",
+              "_tpl": "601949593ae8f707c4608daa",
               "parentId": "hideout",
               "slotId": "hideout"
             }
@@ -3284,9 +3779,9 @@
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "QM_762x54_BS description",
-    "successMessageText": "QM_762x54_BS successMessageText",
-    "templateId": "QM_762x54_BS",
+    "startedMessageText": "QM_556x45_SSA description",
+    "successMessageText": "QM_556x45_SSA successMessageText",
+    "templateId": "QM_556x45_SSA",
     "traderId": "Erika_Temporal_Id",
     "type": "Skill"
   }

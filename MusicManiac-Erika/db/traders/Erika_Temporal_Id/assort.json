@@ -1,9 +1,19 @@
 {
 	"items": [			
 		{
-			"_id": "Erika_Temporal_Id QM_46x30_AP Trade",
+			"_id": "Erika_Temporal_Id QM_762x25_THV Trade",
+			"_tpl": "ExtraAmmo_762x25tt_THV",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 300 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_46x30_AP Trade_0",
 			"_tpl": "5ba26835d4351e0035628ff5",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 300 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_46x30_AP Trade_1",
+			"_tpl": "ExtraAmmo_46x30_SFN_31_RAM",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 240 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_9x19_AP Trade",
@@ -11,19 +21,54 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_9x19_PBP Trade",
+			"_id": "Erika_Temporal_Id QM_9x19_PBP Trade_0",
 			"_tpl": "5efb0da7a29a85116f6ea05f",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 300 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_9x21_BT Trade",
+			"_id": "Erika_Temporal_Id QM_9x19_PBP Trade_1",
+			"_tpl": "ExtraAmmo_9x19_7n31M",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 150 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_9x21_BT Trade_0",
 			"_tpl": "5a26ac0ec4a28200741e1e18",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 400 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_9x21_BT Trade_1",
+			"_tpl": "5a26ac0ec4a28200741e1e18",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 200 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_9x21_BT Trade_2",
+			"_tpl": "5a26ac0ec4a28200741e1e18",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 100 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_45_AP Trade",
 			"_tpl": "5efb0cabfb3e451d70735af5",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_57x28_SS190 Trade_0",
+			"_tpl": "5cc80f38e4a949001152b560",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 300 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_57x28_SS190 Trade_1",
+			"_tpl": "ExtraAmmo_57x28_B2_PF",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 200 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_57x28_EAT6B Trade_0",
+			"_tpl": "ExtraAmmo_57x28_T6B",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 150 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_57x28_EAT6B Trade_1",
+			"_tpl": "ExtraAmmo_57x28_V57",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 50 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_545x39_BT Trade",
@@ -41,9 +86,14 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_545x39_BS Trade",
+			"_id": "Erika_Temporal_Id QM_545x39_BS Trade_0",
 			"_tpl": "56dff026d2720bb8668b4567",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 300 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_545x39_BS Trade_1",
+			"_tpl": "ExtraAmmo_545x39_7n24M",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 60 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_545x39_PPBS Trade",
@@ -56,19 +106,29 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 600 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_556x45_M855A1 Trade",
+			"_id": "Erika_Temporal_Id QM_556x45_M855A1 Trade_0",
 			"_tpl": "54527ac44bdc2d36668b4567",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 360 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 180 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_556x45_M995 Trade",
+			"_id": "Erika_Temporal_Id QM_556x45_M855A1 Trade_1",
+			"_tpl": "ExtraAmmo_556x45_DM31",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_556x45_M995 Trade_0",
 			"_tpl": "59e690b686f7746c9f75e848",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 240 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_556x45_M995 Trade_1",
+			"_tpl": "ExtraAmmo_556x45_MAI_AP",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 60 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_556x45_SSA Trade",
 			"_tpl": "601949593ae8f707c4608daa",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 180 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_300Blackout_M62 Trade",
@@ -81,14 +141,29 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 480 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_300Blackout_AP Trade",
+			"_id": "Erika_Temporal_Id QM_300Blackout_AP Trade_0",
 			"_tpl": "5fd20ff893a8961fc660a954",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 90 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_300Blackout_AP Trade_1",
+			"_tpl": "ExtraAmmo_762x35_Blackfang",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 60 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_300Blackout_AP Trade_2",
+			"_tpl": "ExtraAmmo_762x35_MAI_AP",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 30 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x39_BP Trade_0",
+			"_tpl": "59e0d99486f7744a32234762",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 180 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_762x39_BP Trade",
-			"_tpl": "59e0d99486f7744a32234762",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 360 }
+			"_id": "Erika_Temporal_Id QM_762x39_BP Trade_1",
+			"_tpl": "ExtraAmmo_762x39_7n23_01",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_762x39_MAI Trade",
@@ -101,14 +176,39 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 200 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_762x51_M61 Trade",
+			"_id": "Erika_Temporal_Id QM_762x51_M61 Trade_0",
 			"_tpl": "5a6086ea4f39f99cd479502f",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 160 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 50 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_762x51_M993 Trade",
+			"_id": "Erika_Temporal_Id QM_762x51_M61 Trade_1",
+			"_tpl": "ExtraAmmo_762x51_7n43",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 40 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x51_M61 Trade_2",
+			"_tpl": "ExtraAmmo_762x51_M80A1_EPR",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 30 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x51_M61 Trade_3",
+			"_tpl": "ExtraAmmo_762x51_MAI_AP",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 20 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x51_M993 Trade_0",
+			"_tpl": "ExtraAmmo_762x51_CBJ",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 40 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x51_M993 Trade_1",
 			"_tpl": "5efb0c1bd79ff02a1f5e68d9",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 80 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 20 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x51_DUDS Trade",
+			"_tpl": "noodal_762_duds",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 20 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_762x54_BT Trade",
@@ -116,19 +216,39 @@
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 280 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_762x54_SNB Trade",
-			"_tpl": "560d61e84bdc2da74d8b4571",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 200 }
+			"_id": "Erika_Temporal_Id QM_762x54_SNB Trade_0",
+			"_tpl": "ExtraAmmo_762x54r_7n26",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 100 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_762x54_BS Trade",
-			"_tpl": "5e023d48186a883be655e551",
+			"_id": "Erika_Temporal_Id QM_762x54_SNB Trade_1",
+			"_tpl": "560d61e84bdc2da74d8b4571",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 80 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x54_SNB Trade_2",
+			"_tpl": "ExtraAmmo_762x54r_7n41",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 40 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_762x54_BS Trade_0",
+			"_tpl": "ExtraAmmo_762x54r_MAI_AP",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
 		},
 		{
-			"_id": "Erika_Temporal_Id QM_338_AP Trade",
+			"_id": "Erika_Temporal_Id QM_762x54_BS Trade_1",
+			"_tpl": "5e023d48186a883be655e551",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 60 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_338_AP Trade_0",
 			"_tpl": "5fc382a9d724d907e2077dab",
-			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 20 }
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 10 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_338_AP Trade_1",
+			"_tpl": "ExtraAmmo_86x70_7n45",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 10 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_9x39_SP6 Trade",
@@ -147,8 +267,13 @@
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_127x55_AP Trade",
-			"_tpl": "5cadf6eeae921500134b2799",
+			"_tpl": "lyconoxps12sabotid",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 120 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_127x55_Sabot Trade",
+			"_tpl": "5cadf6eeae921500134b2799",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 40 }
 		},
 		{
 			"_id": "Erika_Temporal_Id QM_12x70_AP Trade",
@@ -282,25 +407,65 @@
 		}
 	],
 	"barter_scheme": {
-		"Erika_Temporal_Id QM_46x30_AP Trade": [[{
+		"Erika_Temporal_Id QM_762x25_THV Trade": [[{
+			"count": 450, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_46x30_AP Trade_0": [[{
 			"count": 7, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_46x30_AP Trade_1": [[{
+			"count": 8.2, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_46x30_SFN_RAM Trade": [[{
+			"count": 8.5, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
 		"Erika_Temporal_Id QM_9x19_AP Trade": [[{
 			"count": 2, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_9x19_PBP Trade": [[{
+		"Erika_Temporal_Id QM_9x19_PBP Trade_0": [[{
 			"count": 5, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_9x21_BT Trade": [[{
+		"Erika_Temporal_Id QM_9x19_PBP Trade_1": [[{
+			"count": 5.5, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_9x21_BT Trade_0": [[{
 			"count": 850, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_9x21_BT Trade_1": [[{
+			"count": 900, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_9x21_BT Trade_2": [[{
+			"count": 1000, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
 		"Erika_Temporal_Id QM_45_AP Trade": [[{
 			"count": 850, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_0": [[{
+			"count": 4.6, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_1": [[{
+			"count": 5, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_0": [[{
+			"count": 9.4, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_1": [[{
+			"count": 10, 
+			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
 		"Erika_Temporal_Id QM_545x39_BT Trade": [[{
 			"count": 500, 
@@ -314,8 +479,12 @@
 			"count": 300, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_545x39_BS Trade": [[{
+		"Erika_Temporal_Id QM_545x39_BS Trade_0": [[{
 			"count": 1100, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_545x39_BS Trade_1": [[{
+			"count": 1200, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
 		"Erika_Temporal_Id QM_545x39_PPBS Trade": [[{
@@ -323,16 +492,24 @@
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
 		"Erika_Temporal_Id QM_556x45_M856A1 Trade": [[{
-			"count": 1.5, 
+			"count": 1.6, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_556x45_M855A1 Trade": [[{
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_0": [[{
 			"count": 4.5, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_556x45_M995 Trade": [[{
-			"count": 1000, 
-			"_tpl": "5449016a4bdc2d6f028b456f"
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_1": [[{
+			"count": 5.2, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_556x45_M995 Trade_0": [[{
+			"count": 8.2, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_556x45_M995 Trade_1": [[{
+			"count": 8.4, 
+			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
 		"Erika_Temporal_Id QM_556x45_SSA Trade": [[{
 			"count": 11, 
@@ -346,12 +523,24 @@
 			"count": 300, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_300Blackout_AP Trade": [[{
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_0": [[{
 			"count": 900, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_762x39_BP Trade": [[{
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_1": [[{
+			"count": 970, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_2": [[{
+			"count": 1100, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_762x39_BP Trade_0": [[{
 			"count": 900, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_762x39_BP Trade_1": [[{
+			"count": 1000, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
 		"Erika_Temporal_Id QM_762x39_MAI Trade": [[{
@@ -362,28 +551,64 @@
 			"count": 7, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_762x51_M61 Trade": [[{
+		"Erika_Temporal_Id QM_762x51_M61 Trade_0": [[{
 			"count": 12, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
-		"Erika_Temporal_Id QM_762x51_M993 Trade": [[{
-			"count": 17, 
+		"Erika_Temporal_Id QM_762x51_M61 Trade_1": [[{
+			"count": 13, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_762x51_M61 Trade_2": [[{
+			"count": 14, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_762x51_M61 Trade_3": [[{
+			"count": 15, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_762x51_M993 Trade_0": [[{
+			"count": 16.2, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_762x51_M993 Trade_1": [[{
+			"count": 19, 
+			"_tpl": "5696686a4bdc2da3298b456a"
+		}]],
+		"Erika_Temporal_Id QM_762x51_DUDS Trade": [[{
+			"count": 35, 
 			"_tpl": "5696686a4bdc2da3298b456a"
 		}]],
 		"Erika_Temporal_Id QM_762x54_BT Trade": [[{
 			"count": 1200, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_762x54_SNB Trade": [[{
+		"Erika_Temporal_Id QM_762x54_SNB Trade_0": [[{
+			"count": 1500, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_762x54_SNB Trade_1": [[{
 			"count": 1600, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_762x54_BS Trade": [[{
+		"Erika_Temporal_Id QM_762x54_SNB Trade_2": [[{
+			"count": 1800, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_762x54_BS Trade_0": [[{
+			"count": 3900, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_762x54_BS Trade_1": [[{
 			"count": 4500, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
-		"Erika_Temporal_Id QM_338_AP Trade": [[{
+		"Erika_Temporal_Id QM_338_AP Trade_0": [[{
 			"count": 85, 
+			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_338_AP Trade_1": [[{
+			"count": 95, 
 			"_tpl": "569668774bdc2da2298b4568"
 		}]],
 		"Erika_Temporal_Id QM_9x39_SP6 Trade": [[{
@@ -400,6 +625,10 @@
 		}]],
 		"Erika_Temporal_Id QM_127x55_AP Trade": [[{
 			"count": 1800, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
+		}]],
+		"Erika_Temporal_Id QM_127x55_Sabot Trade": [[{
+			"count": 2800, 
 			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]],
 		"Erika_Temporal_Id QM_12x70_AP Trade": [[{
@@ -508,48 +737,75 @@
 		}]]
 	},
   	"loyal_level_items": {
-		"Erika_Temporal_Id QM_46x30_AP Trade" : 1,
+		"Erika_Temporal_Id QM_762x25_THV Trade" : 1,
+
+		"Erika_Temporal_Id QM_46x30_AP Trade_0" : 1,
+		"Erika_Temporal_Id QM_46x30_AP Trade_1" : 1,
 
 		"Erika_Temporal_Id QM_9x19_AP Trade" : 1,
-		"Erika_Temporal_Id QM_9x19_PBP Trade" : 1,
+		"Erika_Temporal_Id QM_9x19_PBP Trade_0" : 1,
+		"Erika_Temporal_Id QM_9x19_PBP Trade_1" : 1,
 
-		"Erika_Temporal_Id QM_9x21_BT Trade" : 1,
+		"Erika_Temporal_Id QM_9x21_BT Trade_0" : 1,
+		"Erika_Temporal_Id QM_9x21_BT Trade_1" : 1,
+		"Erika_Temporal_Id QM_9x21_BT Trade_2" : 1,
 
 		"Erika_Temporal_Id QM_45_AP Trade" : 1,
+
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_0" : 1,
+		"Erika_Temporal_Id QM_57x28_SS190 Trade_1" : 1,
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_0" : 1,
+		"Erika_Temporal_Id QM_57x28_EAT6B Trade_1" : 1,
 
 		"Erika_Temporal_Id QM_545x39_BT Trade" : 1,
 		"Erika_Temporal_Id QM_545x39_7N40 Trade" : 1,
 		"Erika_Temporal_Id QM_545x39_BP Trade" : 1,
-		"Erika_Temporal_Id QM_545x39_BS Trade" : 1,
+		"Erika_Temporal_Id QM_545x39_BS Trade_0" : 1,
+		"Erika_Temporal_Id QM_545x39_BS Trade_1" : 1,
 		"Erika_Temporal_Id QM_545x39_PPBS Trade" : 1,
 
 		"Erika_Temporal_Id QM_556x45_M856A1 Trade" : 1,
-		"Erika_Temporal_Id QM_556x45_M855A1 Trade" : 1,
-		"Erika_Temporal_Id QM_556x45_M995 Trade" : 1,
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_0" : 1,
+		"Erika_Temporal_Id QM_556x45_M855A1 Trade_1" : 1,
+		"Erika_Temporal_Id QM_556x45_M995 Trade_0" : 1,
+		"Erika_Temporal_Id QM_556x45_M995 Trade_1" : 1,
 		"Erika_Temporal_Id QM_556x45_SSA Trade" : 1,
 
 		"Erika_Temporal_Id QM_300Blackout_M62 Trade" : 1,
 		"Erika_Temporal_Id QM_300Blackout_CBJ Trade" : 1,
-		"Erika_Temporal_Id QM_300Blackout_AP Trade" : 1,
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_0" : 1,
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_1" : 1,
+		"Erika_Temporal_Id QM_300Blackout_AP Trade_2" : 1,
 
-		"Erika_Temporal_Id QM_762x39_BP Trade" : 1,
+		"Erika_Temporal_Id QM_762x39_BP Trade_0" : 1,
+		"Erika_Temporal_Id QM_762x39_BP Trade_1" : 1,
 		"Erika_Temporal_Id QM_762x39_MAI Trade" : 1,
 
 		"Erika_Temporal_Id QM_762x51_M62 Trade" : 1,
-		"Erika_Temporal_Id QM_762x51_M61 Trade" : 1,
-		"Erika_Temporal_Id QM_762x51_M993 Trade" : 1,
+		"Erika_Temporal_Id QM_762x51_M61 Trade_0" : 1,
+		"Erika_Temporal_Id QM_762x51_M61 Trade_1" : 1,
+		"Erika_Temporal_Id QM_762x51_M61 Trade_2" : 1,
+		"Erika_Temporal_Id QM_762x51_M61 Trade_3" : 1,
+		"Erika_Temporal_Id QM_762x51_M993 Trade_0" : 1,
+		"Erika_Temporal_Id QM_762x51_M993 Trade_1" : 1,
+		"Erika_Temporal_Id QM_762x51_DUDS Trade" : 1,
 
 		"Erika_Temporal_Id QM_762x54_BT Trade" : 1,
-		"Erika_Temporal_Id QM_762x54_SNB Trade" : 1,
-		"Erika_Temporal_Id QM_762x54_BS Trade" : 1,
+		"Erika_Temporal_Id QM_762x54_SNB Trade_0" : 1,
+		"Erika_Temporal_Id QM_762x54_SNB Trade_1" : 1,
+		"Erika_Temporal_Id QM_762x54_SNB Trade_2" : 1,
+		"Erika_Temporal_Id QM_762x54_BS Trade_0" : 1,
+		"Erika_Temporal_Id QM_762x54_BS Trade_1" : 1,
 
-		"Erika_Temporal_Id QM_338_AP Trade" : 1,
+		"Erika_Temporal_Id QM_338_AP Trade_0" : 1,
+		"Erika_Temporal_Id QM_338_AP Trade_1" : 1,
 
 		"Erika_Temporal_Id QM_9x39_SP6 Trade" : 1,
 		"Erika_Temporal_Id QM_9x39_PAB9 Trade" : 1,
 		"Erika_Temporal_Id QM_9x39_BP Trade" : 1,
 
 		"Erika_Temporal_Id QM_127x55_AP Trade" : 1,
+		"Erika_Temporal_Id QM_127x55_Sabot Trade" : 1,
 
 		"Erika_Temporal_Id QM_12x70_AP Trade" : 1,
 		"Erika_Temporal_Id QM_12x70_Flechette Trade" : 1,
