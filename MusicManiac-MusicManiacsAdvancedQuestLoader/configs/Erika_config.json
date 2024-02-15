@@ -58,7 +58,9 @@
 
 		"QM_HighCapacity_mags": 1,
 
-		"QM_Stims": 1
+		"QM_Stims": 1,
+
+		"QM_Ammo_Case": 1
 	},
 
 	"questsKillsCounterMultipliers" : {
@@ -246,6 +248,8 @@
 
 		"QM_HighCapacity_mags": 25,
 
-		"QM_Stims": 25
+		"QM_Stims": 25,
+
+		"QM_Ammo_Case": 25
 	}
 }

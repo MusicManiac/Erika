@@ -1,0 +1,279 @@
+{
+  "QM_Ammo_Case": {
+    "QuestName": "Getting those stims",
+    "_id": "QM_Ammo_Case",
+    "acceptPlayerMessage": "QM_Ammo_Case description",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "QM_Ammo_Case changeQuestMessageText",
+    "completePlayerMessage": "QM_Ammo_Case successMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoPistols"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_1",
+            "index": 1,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoRevolvers"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_2",
+            "index": 2,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoSMGs"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_3",
+            "index": 3,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoAssaultRifles"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_4",
+            "index": 4,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoAssaultCarbines"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_5",
+            "index": 5,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoLMGs"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_6",
+            "index": 6,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoDMRs"
+            ],
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_8",
+            "index": 8,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoSniperRifles"
+            ],
+            "value": "500",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_9",
+            "index": 9,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "ammoShotguns"
+            ],
+            "value": "500",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "QM_Ammo_Case HandoverItem_10",
+            "index": 10,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5aafbde786f774389d0cbc0f"
+            ],
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "thisIsRandomizedInCode",
+            "index": 0,
+            "parentId": "",
+            "value": 25,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "QM_Ammo_Case description",
+    "failMessageText": "QM_Ammo_Case failMessageText",
+    "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "QM_Ammo_Case name",
+    "note": "QM_Ammo_Case note",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "target": "Erika_Temporal_Id QM_Ammo_Case Trade",
+          "id": "QM_Ammo_Case Erika_Temporal_Id QM_Ammo_Case Trade",
+          "type": "AssortmentUnlock",
+          "index": 0,
+          "loyaltyLevel": 1,
+          "traderId": "Erika_Temporal_Id",
+          "items": [
+            {
+              "_id": "Erika_Temporal_Id QM_Ammo_Case Trade",
+              "_tpl": "5aafbde786f774389d0cbc0f",
+              "parentId": "hideout",
+              "slotId": "hideout"
+            }
+          ]
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "QM_Ammo_Case description",
+    "successMessageText": "QM_Ammo_Case successMessageText",
+    "templateId": "QM_Ammo_Case",
+    "traderId": "Erika_Temporal_Id",
+    "type": "Skill"
+  }
+}

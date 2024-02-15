@@ -404,6 +404,11 @@
 			"_id": "Erika_Temporal_Id QM_Stims Trade_9",
 			"_tpl": "637b612fb7afa97bfc3d7005",
 			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 4 }
+		},
+		{
+			"_id": "Erika_Temporal_Id QM_Ammo_Case Trade",
+			"_tpl": "5aafbde786f774389d0cbc0f",
+			"parentId": "hideout", "slotId": "hideout","upd": { "UnlimitedCount": false, "StackObjectsCount": 8 }
 		}
 	],
 	"barter_scheme": {
@@ -734,6 +739,10 @@
 		"Erika_Temporal_Id QM_Stims Trade_9": [[{
 			"count": 480, 
 			"_tpl": "569668774bdc2da2298b4568"
+		}]],
+		"Erika_Temporal_Id QM_Ammo_Case Trade": [[{
+			"count": 100000, 
+			"_tpl": "5449016a4bdc2d6f028b456f"
 		}]]
 	},
   	"loyal_level_items": {
@@ -836,6 +845,8 @@
 		"Erika_Temporal_Id QM_Stims Trade_6" : 1,
 		"Erika_Temporal_Id QM_Stims Trade_7" : 1,
 		"Erika_Temporal_Id QM_Stims Trade_8" : 1,
-		"Erika_Temporal_Id QM_Stims Trade_9" : 1
+		"Erika_Temporal_Id QM_Stims Trade_9" : 1,
+
+		"Erika_Temporal_Id QM_Ammo_Case Trade" : 1
  	 }
 }

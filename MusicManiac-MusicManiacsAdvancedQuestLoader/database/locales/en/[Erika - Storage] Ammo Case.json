@@ -1,0 +1,19 @@
+{
+  "QM_Ammo_Case HandoverItem_0": "Turn in found in raid pistol ammo",
+  "QM_Ammo_Case HandoverItem_1": "Turn in found in raid revolver ammo",
+  "QM_Ammo_Case HandoverItem_2": "Turn in found in raid SMG ammo",
+  "QM_Ammo_Case HandoverItem_3": "Turn in found in raid assault rifle ammo",
+  "QM_Ammo_Case HandoverItem_4": "Turn in found in raid assault carbine ammo",
+  "QM_Ammo_Case HandoverItem_5": "Turn in found in raid LMG ammo",
+  "QM_Ammo_Case HandoverItem_6": "Turn in found in raid DMR ammo",
+  "QM_Ammo_Case HandoverItem_8": "Turn in found in raid sniper rifles ammo",
+  "QM_Ammo_Case HandoverItem_9": "Turn in found in raid shotguns ammo",
+  "QM_Ammo_Case HandoverItem_10": "Turn in found in raid ammunition case",
+  "QM_Ammo_Case changeQuestMessageText": "",
+  "QM_Ammo_Case description": "So you have ammo hoarding problem? Show me to which extent and maybe I can help you out here.",
+  "QM_Ammo_Case failMessageText": "",
+  "QM_Ammo_Case location": "any",
+  "QM_Ammo_Case name": "Getting that ammo case",
+  "QM_Ammo_Case note": "",
+  "QM_Ammo_Case successMessageText": "Hoard all you want"
+}
