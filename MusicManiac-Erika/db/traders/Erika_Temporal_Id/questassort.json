@@ -102,7 +102,10 @@
 		"Erika_Temporal_Id QM_Stims Trade_8" : "QM_Stims",
 		"Erika_Temporal_Id QM_Stims Trade_9" : "QM_Stims",
 
-		"Erika_Temporal_Id QM_Ammo_Case Trade" : "QM_Ammo_Case"
+		"Erika_Temporal_Id QM_Ammo_Case Trade" : "QM_Ammo_Case",
+
+		"Erika_Temporal_Id QM_Weapon_Case Trade_0" : "QM_Weapon_Case",
+		"Erika_Temporal_Id QM_Weapon_Case Trade_1" : "QM_Weapon_Case"
 	},
 	"fail": {}
 }

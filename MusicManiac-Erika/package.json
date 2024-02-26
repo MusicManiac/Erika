@@ -1,7 +1,7 @@
 {
     "name": "MusicManiac-Erika",
     "author": "MusicManiac",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "license": "MIT",
     "main": "src/mod.js",
     "akiVersion": "3.7.x",

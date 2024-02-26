@@ -1,6 +1,6 @@
 {
   "QM_Ammo_Case": {
-    "QuestName": "Getting those stims",
+    "QuestName": "Getting those ammo cases",
     "_id": "QM_Ammo_Case",
     "acceptPlayerMessage": "QM_Ammo_Case description",
     "canShowNotificationsInGame": true,
@@ -228,7 +228,7 @@
             "id": "thisIsRandomizedInCode",
             "index": 0,
             "parentId": "",
-            "value": 25,
+            "value": 20,
             "visibilityConditions": []
           },
           "dynamicLocale": false
